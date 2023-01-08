@@ -5,7 +5,7 @@ Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 14
 Depends: ceph-mgr (= 16.2.7), ceph-mon (= 16.2.7), ceph-osd (= 16.2.7)
 Recommends: ceph-mds (= 16.2.7), ceph-dkms
-Filename: ./ceph_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph_16.2.7_arm64.deb
 Size: 8964
 MD5sum: 23cca29fd5557d85cae595886b0dea9f
 SHA1: 8d5b8e789151feb1237bfd66da566b893b1eb3c1
@@ -28,7 +28,7 @@ Depends: binutils, ceph-common (= 16.2.7), cryptsetup-bin | cryptsetup, debianut
 Recommends: btrfs-tools, ceph-mds (= 16.2.7), librados2 (= 16.2.7), libradosstriper1 (= 16.2.7), librbd1 (= 16.2.7), ntp | time-daemon, nvme-cli, smartmontools
 Breaks: ceph (<< 10), ceph-test (<< 12.2.2-14), libpve-storage-perl (<= 5.0-25), python-ceph (<< 0.92-1223)
 Replaces: ceph (<< 10), ceph-common (<< 0.78-500), ceph-test (<< 12.2.2-14), python-ceph (<< 0.92-1223)
-Filename: ./ceph-base_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-base_16.2.7_arm64.deb
 Size: 5130412
 MD5sum: fd144995e6e475def2c7cb9e1a2bb993
 SHA1: ec5a7ae0261ed8dcec2d57e0a7a3ed41d6502a68
@@ -56,7 +56,7 @@ Suggests: ceph-base (= 16.2.7), ceph-mds (= 16.2.7)
 Conflicts: ceph-client-tools
 Breaks: ceph (<< 10), ceph-fs-common (<< 11.0), ceph-test (<< 9.0.3-1646), libpve-storage-perl (<= 5.0-25), librbd1 (<< 0.92-1238), python-ceph (<< 0.92-1223), radosgw (<< 12.0.3)
 Replaces: ceph (<< 10), ceph-client-tools, ceph-fs-common (<< 11.0), ceph-test (<< 9.0.3-1646), librbd1 (<< 0.92-1238), python-ceph (<< 0.92-1223), radosgw (<< 12.0.3)
-Filename: ./ceph-common_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-common_16.2.7_arm64.deb
 Size: 19003476
 MD5sum: ad166d8fccb02a94f74fe0499fbd6351
 SHA1: 48f43ba45f9fa7ee89a06fa33b736ccb11a5cacc
@@ -77,7 +77,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 2394
 Depends: libc6 (>= 2.30), libfuse3-3 (>= 3.2.3), libgcc-s1 (>= 3.0), librados2, libstdc++6 (>= 9), python3:any, fuse
-Filename: ./ceph-fuse_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-fuse_16.2.7_arm64.deb
 Size: 693532
 MD5sum: cdaf4080ac3607e5423fca40af7f8bfa
 SHA1: a1b6d565165548d657b1f0d191400e1709fcd9e0
@@ -105,7 +105,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 485
 Depends: ceph-common (= 16.2.7), librados2 (= 16.2.7), libc6 (>= 2.28), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
-Filename: ./ceph-immutable-object-cache_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-immutable-object-cache_16.2.7_arm64.deb
 Size: 139348
 MD5sum: 7871fd4bcf3948e47f289c6be97013a0
 SHA1: 0506fc929071be878d72d3ebd6485d8af63f1d55
@@ -129,7 +129,7 @@ Depends: ceph-base (= 16.2.7), libc6 (>= 2.30), libgcc-s1 (>= 3.0), libgoogle-pe
 Recommends: ceph-fuse (= 16.2.7), libcephfs2 (= 16.2.7)
 Breaks: ceph (<< 0.93-417)
 Replaces: ceph (<< 0.93-417)
-Filename: ./ceph-mds_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-mds_16.2.7_arm64.deb
 Size: 1934752
 MD5sum: a8335357c8c759671bc73223fcf8a67e
 SHA1: 7a52780494db15d9704646df809caca039f149e6
@@ -155,7 +155,7 @@ Depends: ceph-base (= 16.2.7), ceph-mgr-modules-core (= 16.2.7), python3-bcrypt,
 Suggests: ceph-mgr-dashboard, ceph-mgr-diskprediction-local, ceph-mgr-k8sevents, ceph-mgr-cephadm, python3-influxdb
 Breaks: ceph (<< 0.93-417)
 Replaces: ceph (<< 0.93-417)
-Filename: ./ceph-mgr_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-mgr_16.2.7_arm64.deb
 Size: 1280900
 MD5sum: 9c2f4c21b9819297476af9d17e13460e
 SHA1: 3d0d286d245325c5efa4ac8ab1757e6e595f4a40
@@ -180,7 +180,7 @@ Installed-Size: 32767
 Depends: ceph-base (= 16.2.7), libjaeger, libc6 (>= 2.30), libgcc-s1 (>= 4.2), libgoogle-perftools4, libleveldb1d, liblz4-1 (>= 0.0~r130), librados2, libsnappy1v5 (>= 1.1.8), libstdc++6 (>= 9), zlib1g (>= 1:1.1.4)
 Breaks: ceph (<< 10), ceph-test (<< 12.2.2-14)
 Replaces: ceph (<< 10), ceph-test (<< 12.2.2-14)
-Filename: ./ceph-mon_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-mon_16.2.7_arm64.deb
 Size: 6250396
 MD5sum: 3770360b1c755fab8bfa11d2b7af147f
 SHA1: 270cc6f8bff9a9f71fec8bcf4c14a47b16167e9a
@@ -207,7 +207,7 @@ Installed-Size: 109262
 Depends: ceph-base (= 16.2.7), lvm2, sudo, python3-ceph-common, python3.9:any, python3:any, libaio1 (>= 0.3.93), libblkid1 (>= 2.17.2), libc6 (>= 2.30), libfuse3-3 (>= 3.2.3), libgcc-s1 (>= 4.5), libgoogle-perftools4, libibverbs1 (>= 1.1.6), libleveldb1d, liblttng-ust0 (>= 2.5.0), liblz4-1 (>= 0.0~r130), librados2, librdmacm1 (>= 1.0.15), libsnappy1v5 (>= 1.1.8), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libudev1 (>= 183), zlib1g (>= 1:1.1.4)
 Breaks: ceph (<< 10), ceph-test (<< 12.2.2-14)
 Replaces: ceph (<< 10), ceph-test (<< 12.2.2-14)
-Filename: ./ceph-osd_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-osd_16.2.7_arm64.deb
 Size: 22865276
 MD5sum: 7a9bef7e4a1f933867ec0dfbe4aa3525
 SHA1: 897264025d36a9372796e27b58a45df11b7cb0be
@@ -232,7 +232,7 @@ Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 28
 Depends: ceph (= 16.2.7), resource-agents
 Recommends: pacemaker
-Filename: ./ceph-resource-agents_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-resource-agents_16.2.7_arm64.deb
 Size: 11952
 MD5sum: f87e01fde2a669f82fbc441935150538
 SHA1: 69557d21472fb43df137e2792e97a7c116652083
@@ -258,7 +258,7 @@ Installed-Size: 203139
 Depends: ceph-common, curl, jq, socat, xmlstarlet, libaio1 (>= 0.3.93), libblkid1 (>= 2.17.2), libc6 (>= 2.30), libcephfs2, libcryptsetup12 (>= 2:2.0), libcurl4 (>= 7.28.0), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.5), libgoogle-perftools4, libicu67 (>= 67.1-1~), libkeyutils1 (>= 1.4), libldap-2.4-2 (>= 2.4.7), libleveldb1d, liblz4-1 (>= 0.0~r130), librabbitmq4 (>= 0.10.0), librados2, libradosstriper1, librbd1, librdkafka1 (>= 0.9.2), librgw2, libsnappy1v5 (>= 1.1.8), libsqlite3-0 (>= 3.7.15), libsqlite3-mod-ceph (>= 15.2.0-1), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libudev1 (>= 183), zlib1g (>= 1:1.1.4)
 Breaks: ceph-base (<< 1)
 Replaces: ceph-base (<< 11)
-Filename: ./ceph-test_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/ceph-test_16.2.7_arm64.deb
 Size: 41458692
 MD5sum: 4469ef31b5727889acac249e9c41e19d
 SHA1: f92383c5f7a94c53e0b6215fb091d8bfa49e5936
@@ -277,7 +277,7 @@ Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 333
 Depends: lvm2, python3:any
 Recommends: podman (>= 2.0.2) | docker.io
-Filename: ./cephadm_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/cephadm_16.2.7_arm64.deb
 Size: 73792
 MD5sum: 776741aed4a00fda3ec0da73d88b22dd
 SHA1: 0a8a5ffe259e819b1ccf3d62d8e91ddc5bd42c85
@@ -300,7 +300,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 705
 Depends: ceph-common (= 16.2.7), librados2 (= 16.2.7), libcephfs2 (= 16.2.7), libc6 (>= 2.30), libgcc-s1 (>= 3.0), libgoogle-perftools4, libstdc++6 (>= 9)
-Filename: ./cephfs-mirror_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/cephfs-mirror_16.2.7_arm64.deb
 Size: 200104
 MD5sum: 1f2f007fa675d0006e6aa7dd5da62cf3
 SHA1: 5abf86ad15f20371bc6e2246c9624fbeb908f49a
@@ -319,7 +319,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 642
 Depends: libc6 (>= 2.17), libcfg7 (>= 3.1.0), libcmap4 (>= 2.99.3), libcorosync-common4 (>= 1.99.9), libcpg4 (>= 1.1.0), libknet1 (>= 1.18), libnozzle1 (>= 1.6), libqb100 (>= 2.0.3), libquorum5 (>= 1.99.9), libstatgrab10, libsystemd0, libvotequorum8 (>= 2.4.2), lsb-base (>= 3.0-6), adduser, xsltproc
-Filename: ./corosync_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/corosync_3.1.5-pve2_arm64.deb
 Size: 229016
 MD5sum: 778b6f33282fcd800e471b899d8b97f9
 SHA1: 3c32b74dc7d226141eb65e9b5a98e02b1351d281
@@ -354,7 +354,7 @@ Installed-Size: 78
 Pre-Depends: init-system-helpers (>= 1.54~)
 Depends: libc6 (>= 2.17), libcfg7 (>= 2.99.5), libcmap4 (>= 2.99.3), libcorosync-common4 (>= 1.99.9), libdbus-1-3 (>= 1.9.14), libqb100 (>= 2.0.3), libquorum5 (>= 1.99.9), libsnmp40 (>= 5.9+dfsg), libsystemd0, corosync, lsb-base (>= 3.0-6)
 Recommends: dbus
-Filename: ./corosync-notifyd_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/corosync-notifyd_3.1.5-pve2_arm64.deb
 Size: 21160
 MD5sum: 41777e2c1aec0850d8fb571cbbf9d158
 SHA1: e1ccb5fa35bdf08296a15c9921ea5ce74b705692
@@ -387,7 +387,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 166
 Depends: libc6 (>= 2.17), libcorosync-common4 (>= 1.99.9), libknet1 (>= 0.9), libqb100 (>= 2.0.3), libreadline8 (>= 6.0)
-Filename: ./corosync-vqsim_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/corosync-vqsim_3.1.5-pve2_arm64.deb
 Size: 56008
 MD5sum: 78b155a7ee849b5f6b7c214f927c6ccb
 SHA1: 81247d13b55a8c1797ecd05ba01cbd15fae5feb5
@@ -421,7 +421,7 @@ Maintainer: Salvatore Bonaccorso <carnil@debian.org>
 Installed-Size: 2875
 Depends: python3-protobuf, python3:any, libbsd0 (>= 0.6.0), libc6 (>= 2.28), libgnutls30 (>= 3.6.14), libnet1 (>= 1.1.2.1), libnl-3-200 (>= 3.2.7), libprotobuf-c1 (>= 1.0.1)
 Recommends: iproute2 | iproute
-Filename: ./criu_3.15-1_arm64.deb
+Filename: dev/main/binary-arm64/criu_3.15-1_arm64.deb
 Size: 587756
 MD5sum: e05797622c14bc6a61947d7ecae78058
 SHA1: 62426d7f4cb80df046889e02ef3971f34456aad4
@@ -442,7 +442,7 @@ Installed-Size: 124
 Depends: libcephfs2 (= 16.2.7)
 Conflicts: libceph-dev, libceph1-dev, libcephfs2-dev
 Replaces: libceph-dev, libceph1-dev, libcephfs2-dev
-Filename: ./libcephfs-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libcephfs-dev_16.2.7_arm64.deb
 Size: 26048
 MD5sum: 7d09297d9cd9aff360f211086b610f26
 SHA1: a81e53b3062cc0954ca4d1e4396ebccf23f20c36
@@ -467,7 +467,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 3698
 Depends: libcephfs2 (= 16.2.7), libc6 (>= 2.17), libgcc-s1 (>= 3.0), librados2, libstdc++6 (>= 5.2)
-Filename: ./libcephfs-jni_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libcephfs-jni_16.2.7_arm64.deb
 Size: 667756
 MD5sum: 467c87bff23cfd0865277fd989e4a630
 SHA1: 4cd4e0c4dbde588d99e0d4540655878e77e2a67e
@@ -486,7 +486,7 @@ Installed-Size: 1965
 Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.0), librados2, libstdc++6 (>= 9)
 Conflicts: libceph, libceph1, libcephfs
 Replaces: libceph, libceph1, libcephfs
-Filename: ./libcephfs2_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libcephfs2_16.2.7_arm64.deb
 Size: 595680
 MD5sum: 01c0d0fb11d42cb564be7ec641cc5914
 SHA1: a4145c2364d4a9298e4dc5de91e14114caf05896
@@ -508,7 +508,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 28
 Depends: libcorosync-common-dev (= 3.1.5-pve2), libcfg7 (= 3.1.5-pve2)
-Filename: ./libcfg-dev_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcfg-dev_3.1.5-pve2_arm64.deb
 Size: 7600
 MD5sum: bb1e4925f093d0d53e48a523d64c9bd9
 SHA1: 6050590e706dc44fc1a99a66d87e321c1b13f8ea
@@ -543,7 +543,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 33
 Depends: libc6 (>= 2.17), libcorosync-common4 (>= 1.99.9), libqb100 (>= 2.0.1)
-Filename: ./libcfg7_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcfg7_3.1.5-pve2_arm64.deb
 Size: 10552
 MD5sum: 37cc241a53f3320b0d04be94e62ef4b6
 SHA1: 41bd94a8d2aebcdc4accf8b45f05819ce627dca3
@@ -577,7 +577,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 74
 Depends: libcorosync-common-dev (= 3.1.5-pve2), libcmap4 (= 3.1.5-pve2)
-Filename: ./libcmap-dev_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcmap-dev_3.1.5-pve2_arm64.deb
 Size: 39720
 MD5sum: 426504fb6c7df92845bc5294959b947d
 SHA1: 8ef9cda017671fea02ce74e527cbf3049c45e23e
@@ -612,7 +612,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 42
 Depends: libc6 (>= 2.17), libcorosync-common4 (>= 1.99.9), libqb100 (>= 2.0.1)
-Filename: ./libcmap4_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcmap4_3.1.5-pve2_arm64.deb
 Size: 12188
 MD5sum: 2f1693b422c375aa5c121c62a30c4fbc
 SHA1: a0e590636d414ba2921660ce82ede4893c28f032
@@ -646,7 +646,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 35
 Depends: libqb-dev, libcorosync-common4 (= 3.1.5-pve2)
-Filename: ./libcorosync-common-dev_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcorosync-common-dev_3.1.5-pve2_arm64.deb
 Size: 8140
 MD5sum: e779cc4ffe3a27aec710d6b2064a4d49
 SHA1: e57ae4abe5b5661f50d1d9dc28b9d2df68dfa621
@@ -680,7 +680,7 @@ Version: 3.1.5-pve2
 Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 28
-Filename: ./libcorosync-common4_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcorosync-common4_3.1.5-pve2_arm64.deb
 Size: 7616
 MD5sum: 0385435ff88e1461e4ff51a6e2f596e9
 SHA1: 6f2b74c40212df1787be48ffc4ca3f9b22ccd896
@@ -714,7 +714,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 74
 Depends: libcorosync-common-dev (= 3.1.5-pve2), libcpg4 (= 3.1.5-pve2)
-Filename: ./libcpg-dev_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcpg-dev_3.1.5-pve2_arm64.deb
 Size: 43944
 MD5sum: 89f0e9dd17d6d1d17b1e76b714f0b994
 SHA1: 63798b575aea724e26c605123b81f42c70655ba5
@@ -749,7 +749,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 41
 Depends: libc6 (>= 2.17), libcorosync-common4 (>= 1.99.9), libqb100 (>= 2.0.1)
-Filename: ./libcpg4_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libcpg4_3.1.5-pve2_arm64.deb
 Size: 14040
 MD5sum: a0a782deb18721bbefae8b372b9db8cd
 SHA1: 85d045c683402c9661882b7396813761e3dc89fe
@@ -782,7 +782,7 @@ Version: 16.2.7
 Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 14
-Filename: ./libjaeger_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libjaeger_16.2.7_arm64.deb
 Size: 8876
 MD5sum: 4283febea4b22156fbc353853893a1d1
 SHA1: a510a369e648e53b9df909958fadcfe59b0464e8
@@ -798,7 +798,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 3089
 Depends: perl, perlapi-5.32.1, libc6 (>= 2.28), libgcc-s1 (>= 4.2), libssl1.1 (>= 1.1.1), libuuid1 (>= 2.16)
-Filename: ./libpmg-rs-perl_0.4.0_arm64.deb
+Filename: dev/main/binary-arm64/libpmg-rs-perl_0.4.0_arm64.deb
 Size: 836468
 MD5sum: c2a035ff6f46aa50699be4a89ce8ef3e
 SHA1: 6716215211cdac0e901934f63b18775e1039bc49
@@ -818,7 +818,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 5751
 Depends: libc6 (>= 2.28), libgcc-s1 (>= 4.2), libssl1.1 (>= 1.1.0), libzstd1 (>= 1.4.0)
 Breaks: pve-qemu-kvm (<< 5.2.0-1)
-Filename: ./libproxmox-backup-qemu0_1.3.1-1_arm64.deb
+Filename: dev/main/binary-arm64/libproxmox-backup-qemu0_1.3.1-1_arm64.deb
 Size: 1385988
 MD5sum: b62771a77f78cdb46f5f576a7a55f914
 SHA1: c28f84a84205dd70d77f08f2b31295896488b1aa
@@ -837,7 +837,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 29
 Depends: libproxmox-backup-qemu0
-Filename: ./libproxmox-backup-qemu0-dev_1.3.1-1_arm64.deb
+Filename: dev/main/binary-arm64/libproxmox-backup-qemu0-dev_1.3.1-1_arm64.deb
 Size: 6660
 MD5sum: 566f3c481d1b419614360bb2b354aaee
 SHA1: 58a062a1841334e0b6b0fd70e760904a3a57add5
@@ -857,7 +857,7 @@ Installed-Size: 20
 Depends: perl:any, libpve-rs-perl (>= 0.6.2) | libpmg-rs-perl (>= 0.5.1)
 Breaks: libpve-rs-perl (<< 0.6.0)
 Replaces: libpve-rs-perl (<< 0.6.0)
-Filename: ./libproxmox-rs-perl_0.1.2_arm64.deb
+Filename: dev/main/binary-arm64/libproxmox-rs-perl_0.1.2_arm64.deb
 Size: 2736
 MD5sum: 952fafe64e1997bd5c6e888acace9af9
 SHA1: 0c26d8ca464cdfff91a0864aca9bf91aebdf4071
@@ -876,7 +876,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 4001
 Depends: perl, perlapi-5.32.1, libacl1 (>= 2.2.23), libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 4.2), libssl1.1 (>= 1.1.1), libuuid1 (>= 2.16)
 Breaks: libpve-access-control (<< 7.1-3), libpve-common-perl (<< 7.1-4), pve-manager (<< 7.1-11)
-Filename: ./libpve-rs-perl_0.6.2_arm64.deb
+Filename: dev/main/binary-arm64/libpve-rs-perl_0.6.2_arm64.deb
 Size: 1183696
 MD5sum: dc73677d9e9f6960c0719184cf43fdcb
 SHA1: e9100a3bfc287226108a20aa4a2bf3402db851a4
@@ -894,7 +894,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 36
 Depends: perl (>= 5.20.1-5), perlapi-5.32.1, libc6 (>= 2.17), libu2f-server0 (>= 0.0.0)
-Filename: ./libpve-u2f-server-perl_1.1-2_arm64.deb
+Filename: dev/main/binary-arm64/libpve-u2f-server-perl_1.1-2_arm64.deb
 Size: 7228
 MD5sum: 8190b7da9c2285f246493f7276a8a90c
 SHA1: beb0178c39c35f731bba28376f3c10253e14110d
@@ -913,7 +913,7 @@ Maintainer: Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org
 Installed-Size: 269
 Depends: libqb0 (= 1.0.3-1~bpo9), libc6 (>= 2.17)
 Suggests: libqb-doc
-Filename: ./libqb-dev_1.0.3-1~bpo9_arm64.deb
+Filename: dev/main/binary-arm64/libqb-dev_1.0.3-1~bpo9_arm64.deb
 Size: 143744
 MD5sum: 2d1e2afffd26d647e677d7166b180119
 SHA1: f40d424b68482465b45573b278cbfd6b7785e547
@@ -937,7 +937,7 @@ Architecture: arm64
 Maintainer: Debian HA Maintainers <debian-ha-maintainers@lists.alioth.debian.org>
 Installed-Size: 522
 Depends: libc6 (>= 2.17)
-Filename: ./libqb0_1.0.3-1~bpo9_arm64.deb
+Filename: dev/main/binary-arm64/libqb0_1.0.3-1~bpo9_arm64.deb
 Size: 135368
 MD5sum: 3a3f876f6f1203f3a6908dd7a1503aa6
 SHA1: 0b1cb3e880b47e24d801fef6a2356d94cbdd571a
@@ -961,7 +961,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 50
 Depends: libcorosync-common-dev (= 3.1.5-pve2), libquorum5 (= 3.1.5-pve2)
-Filename: ./libquorum-dev_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libquorum-dev_3.1.5-pve2_arm64.deb
 Size: 26340
 MD5sum: 8e3f4be374d513233610ad205df75025
 SHA1: fb1cca3870e135363139ad672873d4c48131e6ba
@@ -996,7 +996,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 29
 Depends: libc6 (>= 2.17), libcorosync-common4 (>= 1.99.9), libqb100 (>= 2.0.1)
-Filename: ./libquorum5_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libquorum5_3.1.5-pve2_arm64.deb
 Size: 9284
 MD5sum: cbe1ef473aa12f76ce3be056c65fc535
 SHA1: 581645c4701c4f53de3028af48bc96e7e673ef16
@@ -1032,7 +1032,7 @@ Installed-Size: 1170
 Depends: librados2 (= 16.2.7), libc6 (>= 2.17), libgcc-s1 (>= 3.0), libstdc++6 (>= 5.2)
 Conflicts: librados1-dev, librados2-dev
 Replaces: librados1-dev, librados2-dev
-Filename: ./librados-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/librados-dev_16.2.7_arm64.deb
 Size: 244944
 MD5sum: 4e2a7ae3e23f34603469d5e68f2a3d0b
 SHA1: e36c5ad51b5e892fd6d21347e07194ba1c54198d
@@ -1058,7 +1058,7 @@ Installed-Size: 12801
 Depends: libblkid1 (>= 2.17.2), libc6 (>= 2.30), libgcc-s1 (>= 4.5), libibverbs1 (>= 1.1.6), liblttng-ust0 (>= 2.5.0), librdmacm1 (>= 1.0.15), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9), libudev1 (>= 183), zlib1g (>= 1:1.1.4)
 Conflicts: librados
 Replaces: librados
-Filename: ./librados2_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/librados2_16.2.7_arm64.deb
 Size: 2900216
 MD5sum: a0c3da85382c8c369d6b6b47086be215
 SHA1: 3a970b514ccda49c7a8f32c4ad620bba9a9e2b0b
@@ -1078,7 +1078,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 38
 Depends: libpve-access-control, librados2 (>= 0.67.5), perl (>= 5.20.1-5), perlapi-5.32.1, libc6 (>= 2.17)
-Filename: ./librados2-perl_1.2-1_arm64.deb
+Filename: dev/main/binary-arm64/librados2-perl_1.2-1_arm64.deb
 Size: 8724
 MD5sum: 0c6bf3ef796919024998a94c1bb03a43
 SHA1: af1ad809ddc6b3eede3bbe77fae370ce90ac1c7c
@@ -1096,7 +1096,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 127
 Depends: librados-dev (= 16.2.7)
-Filename: ./libradospp-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libradospp-dev_16.2.7_arm64.deb
 Size: 31860
 MD5sum: 3ec6d6582b19e455fa4ae9a39dc711b4
 SHA1: 867a0bd837dac229d795ba39c40b850fe0a0c1f1
@@ -1120,7 +1120,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 47
 Depends: libradosstriper1 (= 16.2.7)
-Filename: ./libradosstriper-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libradosstriper-dev_16.2.7_arm64.deb
 Size: 14080
 MD5sum: bd3159a52cf379896571eb4eeadc6216
 SHA1: f0c0bfd44b96da75154e8ad517a113b64a8435c4
@@ -1143,7 +1143,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 1518
 Depends: librados2 (= 16.2.7), libc6 (>= 2.30), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
-Filename: ./libradosstriper1_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libradosstriper1_16.2.7_arm64.deb
 Size: 394436
 MD5sum: 34c09f245b23ca94b99e1a0ccfe7e907
 SHA1: 4196f3ccb3104c4b2ac33e297b19b08e6fc68d6a
@@ -1165,7 +1165,7 @@ Installed-Size: 121
 Depends: librados-dev (= 16.2.7), librbd1 (= 16.2.7)
 Conflicts: librbd1-dev
 Replaces: librbd1-dev
-Filename: ./librbd-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/librbd-dev_16.2.7_arm64.deb
 Size: 24316
 MD5sum: 36dc31d02f5e3aa53a7197a552a3d48e
 SHA1: 9c17a66822c0360b594d488a9739eb7207e3ef06
@@ -1189,7 +1189,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 14012
 Depends: librados2 (= 16.2.7), libaio1 (>= 0.3.93), libc6 (>= 2.30), libcryptsetup12 (>= 2:2.0), libgcc-s1 (>= 4.5), liblttng-ust0 (>= 2.5.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9)
-Filename: ./librbd1_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/librbd1_16.2.7_arm64.deb
 Size: 2801664
 MD5sum: e8e41298d4176107d8f58c05ac229d6f
 SHA1: 1cb882b4c682d20f954ca394f51cea82c51bb716
@@ -1210,7 +1210,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 30
 Depends: librados-dev (= 16.2.7), librgw2 (= 16.2.7)
-Filename: ./librgw-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/librgw-dev_16.2.7_arm64.deb
 Size: 12008
 MD5sum: 0c3c52c166d54e5c2a0c2378dc1ec44a
 SHA1: a2a3c994321943556b26f42b5f4dc37de945a799
@@ -1234,7 +1234,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 11795
 Depends: librados2 (= 16.2.7), libc6 (>= 2.30), libcurl4 (>= 7.28.0), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.5), libicu67 (>= 67.1-1~), libldap-2.4-2 (>= 2.4.7), liblua5.3-0, librabbitmq4 (>= 0.10.0), librdkafka1 (>= 0.9.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9)
-Filename: ./librgw2_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/librgw2_16.2.7_arm64.deb
 Size: 3068528
 MD5sum: 7cea3cf0425d3d49ed6809294d3d0771
 SHA1: 88517ca55fe892d0de8ce910689480b86c45096c
@@ -1258,7 +1258,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-proxmox-api-macro-0.4+default-dev
 Provides: librust-proxmox+proxmox-api-macro-dev (= 0.12.1-1), librust-proxmox-0+api-macro-dev (= 0.12.1-1), librust-proxmox-0+proxmox-api-macro-dev (= 0.12.1-1), librust-proxmox-0.12+api-macro-dev (= 0.12.1-1), librust-proxmox-0.12+proxmox-api-macro-dev (= 0.12.1-1), librust-proxmox-0.12.1+api-macro-dev (= 0.12.1-1), librust-proxmox-0.12.1+proxmox-api-macro-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+api-macro-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+api-macro-dev_0.12.1-1_arm64.deb
 Size: 1204
 MD5sum: 67c733c87eb9508dccc13b8ccaf2924f
 SHA1: ad4617c3994d3bcb3942cf4f7b03777ed381279b
@@ -1280,7 +1280,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-base32-0.4+default-dev
 Provides: librust-proxmox+u2f-dev (= 0.12.1-1), librust-proxmox-0+base32-dev (= 0.12.1-1), librust-proxmox-0+u2f-dev (= 0.12.1-1), librust-proxmox-0.12+base32-dev (= 0.12.1-1), librust-proxmox-0.12+u2f-dev (= 0.12.1-1), librust-proxmox-0.12.1+base32-dev (= 0.12.1-1), librust-proxmox-0.12.1+u2f-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+base32-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+base32-dev_0.12.1-1_arm64.deb
 Size: 1200
 MD5sum: 1afc03f8034eefddb1644dd74a962444
 SHA1: 3b3c16c03ade341af6102d054246d245a8ecb4f6
@@ -1302,7 +1302,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-proxmox+router-dev (= 0.12.1-1), librust-hyper-0.14+default-dev, librust-hyper-0.14+full-dev, librust-tokio-1+default-dev
 Provides: librust-proxmox-0+cli-dev (= 0.12.1-1), librust-proxmox-0.12+cli-dev (= 0.12.1-1), librust-proxmox-0.12.1+cli-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+cli-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+cli-dev_0.12.1-1_arm64.deb
 Size: 1172
 MD5sum: 1b963e7c65ec1cef99eeb8ccd786b7ec
 SHA1: 105ddbb286eda0ed001048767d0a29b9260a31f2
@@ -1322,7 +1322,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-proxmox+cli-dev (= 0.12.1-1), librust-proxmox+router-dev (= 0.12.1-1), librust-proxmox+tfa-dev (= 0.12.1-1), librust-proxmox+u2f-dev (= 0.12.1-1)
 Provides: librust-proxmox-0+default-dev (= 0.12.1-1), librust-proxmox-0.12+default-dev (= 0.12.1-1), librust-proxmox-0.12.1+default-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+default-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+default-dev_0.12.1-1_arm64.deb
 Size: 1160
 MD5sum: f1307b47e9f103ee1d841b7c7ffa2ac5
 SHA1: 659129c222aeb50fc1409a9365ac4102f253e6c8
@@ -1342,7 +1342,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-proxmox+u2f-dev (= 0.12.1-1), librust-tokio-1+macros-dev
 Provides: librust-proxmox-0+examples-dev (= 0.12.1-1), librust-proxmox-0.12+examples-dev (= 0.12.1-1), librust-proxmox-0.12.1+examples-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+examples-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+examples-dev_0.12.1-1_arm64.deb
 Size: 1156
 MD5sum: d0bb156351880f523085f27d5e427d4d
 SHA1: 64a32b5d8f8294790ae9d6d48ec90321e7271513
@@ -1362,7 +1362,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-futures-0.3+default-dev
 Provides: librust-proxmox-0+futures-dev (= 0.12.1-1), librust-proxmox-0.12+futures-dev (= 0.12.1-1), librust-proxmox-0.12.1+futures-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+futures-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+futures-dev_0.12.1-1_arm64.deb
 Size: 1144
 MD5sum: 9be23eec1a9053413008efea98997019
 SHA1: 874f257ffbdd29baf9561290b7a7e74e0a9a2408
@@ -1382,7 +1382,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-hyper-0.14+default-dev, librust-hyper-0.14+full-dev
 Provides: librust-proxmox-0+hyper-dev (= 0.12.1-1), librust-proxmox-0.12+hyper-dev (= 0.12.1-1), librust-proxmox-0.12.1+hyper-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+hyper-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+hyper-dev_0.12.1-1_arm64.deb
 Size: 1152
 MD5sum: b022f4f6202296220208c0e252cb2a0c
 SHA1: d6e4d7397ab6d4b3934ccdda912e9beaba248d46
@@ -1402,7 +1402,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-openssl-0.10+default-dev
 Provides: librust-proxmox+tfa-dev (= 0.12.1-1), librust-proxmox-0+openssl-dev (= 0.12.1-1), librust-proxmox-0+tfa-dev (= 0.12.1-1), librust-proxmox-0.12+openssl-dev (= 0.12.1-1), librust-proxmox-0.12+tfa-dev (= 0.12.1-1), librust-proxmox-0.12.1+openssl-dev (= 0.12.1-1), librust-proxmox-0.12.1+tfa-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+openssl-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+openssl-dev_0.12.1-1_arm64.deb
 Size: 1204
 MD5sum: 4e4344228a1014a27c5e79182c7ad2e0
 SHA1: 9855f00cced99ae28b1b367333f54e0c135580bc
@@ -1424,7 +1424,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.15.1-1), librust-proxmox-sortable-macro-0.1+default-dev (>= 0.1.1-~~)
 Provides: librust-proxmox+sortable-macro-dev (= 0.15.1-1), librust-proxmox-0+proxmox-sortable-macro-dev (= 0.15.1-1), librust-proxmox-0+sortable-macro-dev (= 0.15.1-1), librust-proxmox-0.15+proxmox-sortable-macro-dev (= 0.15.1-1), librust-proxmox-0.15+sortable-macro-dev (= 0.15.1-1), librust-proxmox-0.15.1+proxmox-sortable-macro-dev (= 0.15.1-1), librust-proxmox-0.15.1+sortable-macro-dev (= 0.15.1-1)
-Filename: ./librust-proxmox+proxmox-sortable-macro-dev_0.15.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+proxmox-sortable-macro-dev_0.15.1-1_arm64.deb
 Size: 1232
 MD5sum: 9fa28f2c8ec00d29e76eb97ce62815f3
 SHA1: 8520fedefe8d49c9877b8845467d888ea063a89b
@@ -1446,7 +1446,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-futures-0.3+default-dev, librust-hyper-0.14+default-dev, librust-hyper-0.14+full-dev, librust-tokio-1+default-dev
 Provides: librust-proxmox-0+router-dev (= 0.12.1-1), librust-proxmox-0.12+router-dev (= 0.12.1-1), librust-proxmox-0.12.1+router-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+router-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+router-dev_0.12.1-1_arm64.deb
 Size: 1176
 MD5sum: 8d4759cbd197d16e102b0164594761d8
 SHA1: 61e0b2f54d79b7b27d36d9f6ce0691fc71bc77cd
@@ -1466,7 +1466,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.15.1-1), librust-tokio-1+default-dev
 Provides: librust-proxmox-0+tokio-dev (= 0.15.1-1), librust-proxmox-0.15+tokio-dev (= 0.15.1-1), librust-proxmox-0.15.1+tokio-dev (= 0.15.1-1)
-Filename: ./librust-proxmox+tokio-dev_0.15.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+tokio-dev_0.15.1-1_arm64.deb
 Size: 1152
 MD5sum: a0831715335b8548400093621e19bcb7
 SHA1: 3cc6d6b18386b1379adb51ba333299ca8b633159
@@ -1486,7 +1486,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-dev (= 0.12.1-1), librust-tokio-stream-0.1+default-dev (>= 0.1.1-~~)
 Provides: librust-proxmox-0+tokio-stream-dev (= 0.12.1-1), librust-proxmox-0.12+tokio-stream-dev (= 0.12.1-1), librust-proxmox-0.12.1+tokio-stream-dev (= 0.12.1-1)
-Filename: ./librust-proxmox+tokio-stream-dev_0.12.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox+tokio-stream-dev_0.12.1-1_arm64.deb
 Size: 1168
 MD5sum: 3c31fb9ec46a51e8a5953a6d306b6464
 SHA1: 406b27c28ef22c782ee48613ce1ca2ee596a444d
@@ -1506,7 +1506,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 189
 Depends: librust-anyhow-1+default-dev, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-syn-1+default-dev, librust-syn-1+extra-traits-dev, librust-syn-1+full-dev, librust-syn-1+visit-mut-dev
 Provides: librust-proxmox-api-macro+default-dev (= 1.0.3-1), librust-proxmox-api-macro-1+default-dev (= 1.0.3-1), librust-proxmox-api-macro-1-dev (= 1.0.3-1), librust-proxmox-api-macro-1.0+default-dev (= 1.0.3-1), librust-proxmox-api-macro-1.0-dev (= 1.0.3-1), librust-proxmox-api-macro-1.0.3+default-dev (= 1.0.3-1), librust-proxmox-api-macro-1.0.3-dev (= 1.0.3-1)
-Filename: ./librust-proxmox-api-macro-dev_1.0.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-api-macro-dev_1.0.3-1_arm64.deb
 Size: 35600
 MD5sum: df31c25c772ebef961959d50b2c726d5
 SHA1: 11fa749b317b31b02acc38d2716a817a82b3a75a
@@ -1526,7 +1526,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 387
 Depends: librust-anyhow-1+default-dev, librust-hex-0.4+default-dev (>= 0.4.3-~~), librust-once-cell-1+default-dev (>= 1.3.1-~~), librust-openssl-0.10+default-dev, librust-proxmox-schema-1+api-macro-dev, librust-proxmox-schema-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev
 Provides: librust-proxmox-apt+default-dev (= 0.8.0-1), librust-proxmox-apt-0+default-dev (= 0.8.0-1), librust-proxmox-apt-0-dev (= 0.8.0-1), librust-proxmox-apt-0.8+default-dev (= 0.8.0-1), librust-proxmox-apt-0.8-dev (= 0.8.0-1), librust-proxmox-apt-0.8.0+default-dev (= 0.8.0-1), librust-proxmox-apt-0.8.0-dev (= 0.8.0-1)
-Filename: ./librust-proxmox-apt-dev_0.8.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-apt-dev_0.8.0-1_arm64.deb
 Size: 72020
 MD5sum: 69594e6501243d5de5275ac5c07abe28
 SHA1: 8c06faa1d9397975b671c5fa4061f4692373af0a
@@ -1547,7 +1547,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 49
 Depends: librust-anyhow-1+default-dev, librust-futures-0.3+default-dev, librust-lazy-static-1+default-dev (>= 1.4-~~), librust-pin-utils-0.1+default-dev, librust-proxmox-io-1+default-dev, librust-proxmox-io-1+tokio-dev, librust-proxmox-lang-1+default-dev (>= 1.1-~~), librust-tokio-1+default-dev, librust-tokio-1+net-dev, librust-tokio-1+rt-dev, librust-tokio-1+rt-multi-thread-dev, librust-tokio-1+sync-dev, libssl-dev, uuid-dev
 Provides: librust-proxmox-async+default-dev (= 0.4.1), librust-proxmox-async-0+default-dev (= 0.4.1), librust-proxmox-async-0-dev (= 0.4.1), librust-proxmox-async-0.4+default-dev (= 0.4.1), librust-proxmox-async-0.4-dev (= 0.4.1), librust-proxmox-async-0.4.1+default-dev (= 0.4.1), librust-proxmox-async-0.4.1-dev (= 0.4.1)
-Filename: ./librust-proxmox-async-dev_0.4.1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-async-dev_0.4.1_arm64.deb
 Size: 9552
 MD5sum: 1d0339a9ef4361139bbebbb024f8e27d
 SHA1: 7b3633cd991f1d94180b106cd4db1d896e9c50d0
@@ -1566,7 +1566,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 18
 Provides: librust-proxmox-borrow+default-dev (= 1.0.1-1), librust-proxmox-borrow-1+default-dev (= 1.0.1-1), librust-proxmox-borrow-1-dev (= 1.0.1-1), librust-proxmox-borrow-1.0+default-dev (= 1.0.1-1), librust-proxmox-borrow-1.0-dev (= 1.0.1-1), librust-proxmox-borrow-1.0.1+default-dev (= 1.0.1-1), librust-proxmox-borrow-1.0.1-dev (= 1.0.1-1)
-Filename: ./librust-proxmox-borrow-dev_1.0.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-borrow-dev_1.0.1-1_arm64.deb
 Size: 3668
 MD5sum: c378351485c6efaf2bd21be6d4ab1f08
 SHA1: 45f6f9092717f102a73a716f2134d42f105aa402
@@ -1586,7 +1586,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 56
 Depends: librust-anyhow-1+default-dev, librust-bytes-1+default-dev, librust-crc32fast-1+default-dev, librust-endian-trait-0.6+default-dev, librust-flate2-1+default-dev, librust-futures-0.3+default-dev, librust-libc-0.2+default-dev, librust-proxmox-io-1+default-dev, librust-proxmox-io-1+tokio-dev, librust-proxmox-lang-1+default-dev (>= 1.1-~~), librust-proxmox-time-1+default-dev, librust-tar-0.4+default-dev, librust-tokio-1+default-dev (>= 1.6-~~), librust-tokio-1+fs-dev (>= 1.6-~~), librust-tokio-1+io-util-dev (>= 1.6-~~), librust-walkdir-2+default-dev, librust-zstd-0.6+default-dev
 Provides: librust-proxmox-compression+default-dev (= 0.1.2-1), librust-proxmox-compression-0+default-dev (= 0.1.2-1), librust-proxmox-compression-0-dev (= 0.1.2-1), librust-proxmox-compression-0.1+default-dev (= 0.1.2-1), librust-proxmox-compression-0.1-dev (= 0.1.2-1), librust-proxmox-compression-0.1.2+default-dev (= 0.1.2-1), librust-proxmox-compression-0.1.2-dev (= 0.1.2-1)
-Filename: ./librust-proxmox-compression-dev_0.1.2-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-compression-dev_0.1.2-1_arm64.deb
 Size: 11176
 MD5sum: 8a93ba92796bd7894a984a9c691d19de
 SHA1: c4b1282d37a0cdc600339fc4a1ec2b469ae5c150
@@ -1607,7 +1607,7 @@ Installed-Size: 159
 Depends: librust-anyhow-1+default-dev, librust-base64-0.12+default-dev, librust-endian-trait-0.6+arrays-dev, librust-endian-trait-0.6+default-dev, librust-lazy-static-1+default-dev (>= 1.4-~~), librust-libc-0.2+default-dev, librust-nix-0.19+default-dev (>= 0.19.1-~~), librust-proxmox-io-1+default-dev, librust-proxmox-lang-1+default-dev, librust-proxmox-schema-1+default-dev, librust-proxmox-time-1+default-dev, librust-regex-1+default-dev (>= 1.2-~~), librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-unicode-width-0.1+default-dev (>= 0.1.8-~~), uuid-dev
 Suggests: librust-proxmox+proxmox-sortable-macro-dev (= 0.15.1-1), librust-proxmox+tokio-dev (= 0.15.1-1)
 Provides: librust-proxmox+default-dev (= 0.15.1-1), librust-proxmox-0+default-dev (= 0.15.1-1), librust-proxmox-0-dev (= 0.15.1-1), librust-proxmox-0.15+default-dev (= 0.15.1-1), librust-proxmox-0.15-dev (= 0.15.1-1), librust-proxmox-0.15.1+default-dev (= 0.15.1-1), librust-proxmox-0.15.1-dev (= 0.15.1-1)
-Filename: ./librust-proxmox-dev_0.15.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-dev_0.15.1-1_arm64.deb
 Size: 39060
 MD5sum: 18bc7b265352e4b75cef198e31b56e73
 SHA1: 706d7b4d260903682a1621fba87a15331c249d31
@@ -1627,7 +1627,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-base64-0.13+default-dev
 Provides: librust-proxmox-http-0+base64-dev (= 0.6.3-1), librust-proxmox-http-0.6+base64-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+base64-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+base64-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+base64-dev_0.6.3-1_arm64.deb
 Size: 1164
 MD5sum: 384faf91d0ea84c49b5c68171ace3f53
 SHA1: edcbeb3454204a3cfd4eb714bfa74d79989e950a
@@ -1647,7 +1647,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-proxmox-http+futures-dev (= 0.6.3-1), librust-proxmox-http+http-helpers-dev (= 0.6.3-1), librust-proxmox-http+openssl-dev (= 0.6.3-1), librust-proxmox-http+tokio-openssl-dev (= 0.6.3-1), librust-hyper-0.14+full-dev, librust-tokio-1+io-util-dev
 Provides: librust-proxmox-http-0+client-dev (= 0.6.3-1), librust-proxmox-http-0.6+client-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+client-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+client-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+client-dev_0.6.3-1_arm64.deb
 Size: 1208
 MD5sum: fdaa2a138042fd5621dffc4f9a94aef1
 SHA1: d87ad702d26f7fa2d6002407155dc736a6f198e7
@@ -1667,7 +1667,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-futures-0.3+default-dev
 Provides: librust-proxmox-http-0+futures-dev (= 0.6.3-1), librust-proxmox-http-0.6+futures-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+futures-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+futures-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+futures-dev_0.6.3-1_arm64.deb
 Size: 1164
 MD5sum: 0938e2f26c8ba03d4575217ed1829f30
 SHA1: 30d2d7e5f58217325bfc55ab0efcf4886dddfbaf
@@ -1687,7 +1687,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-http-0.2+default-dev
 Provides: librust-proxmox-http+client-trait-dev (= 0.6.3-1), librust-proxmox-http-0+client-trait-dev (= 0.6.3-1), librust-proxmox-http-0+http-dev (= 0.6.3-1), librust-proxmox-http-0.6+client-trait-dev (= 0.6.3-1), librust-proxmox-http-0.6+http-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+client-trait-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+http-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+http-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+http-dev_0.6.3-1_arm64.deb
 Size: 1216
 MD5sum: 3018a608dc9e31e8b7256868bc2a6c81
 SHA1: f8d90c9c4e1e507e16772da3fc16f40831d6e071
@@ -1709,7 +1709,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-proxmox-http+base64-dev (= 0.6.3-1), librust-proxmox-http+http-dev (= 0.6.3-1), librust-proxmox-http+proxmox-sys-dev (= 0.6.3-1), librust-proxmox-http+serde-json-dev (= 0.6.3-1), librust-proxmox-http+url-dev (= 0.6.3-1)
 Provides: librust-proxmox-http-0+http-helpers-dev (= 0.6.3-1), librust-proxmox-http-0.6+http-helpers-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+http-helpers-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+http-helpers-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+http-helpers-dev_0.6.3-1_arm64.deb
 Size: 1192
 MD5sum: 44613691065e9c53049b1c021e595435
 SHA1: 161f75aade73db03ba3f326cdb11107f99769208
@@ -1729,7 +1729,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-hyper-0.14-dev
 Provides: librust-proxmox-http-0+hyper-dev (= 0.6.3-1), librust-proxmox-http-0.6+hyper-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+hyper-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+hyper-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+hyper-dev_0.6.3-1_arm64.deb
 Size: 1156
 MD5sum: 3967049bb38f59948ccd29a5fe920ee9
 SHA1: 44d3522dbe73ccb09dea35ff7ce3bf1893606250
@@ -1749,7 +1749,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-openssl-0.10+default-dev
 Provides: librust-proxmox-http-0+openssl-dev (= 0.6.3-1), librust-proxmox-http-0.6+openssl-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+openssl-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+openssl-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+openssl-dev_0.6.3-1_arm64.deb
 Size: 1168
 MD5sum: bc31c5e58e9b95c0a445a0b08bb8f42a
 SHA1: a227b61386919d27c7f69b0113352ce80ff6ff06
@@ -1769,7 +1769,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-proxmox-async-0.4+default-dev (>= 0.4.1-~~)
 Provides: librust-proxmox-http-0+proxmox-async-dev (= 0.6.3-1), librust-proxmox-http-0.6+proxmox-async-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+proxmox-async-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+proxmox-async-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+proxmox-async-dev_0.6.3-1_arm64.deb
 Size: 1176
 MD5sum: ef2645c56804d1162317638f5084e4b1
 SHA1: 6ceacc72e1ad005cbde4a32ca29e2a525f2dc563
@@ -1789,7 +1789,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.5.1-1), librust-proxmox-0.15-dev
 Provides: librust-proxmox-http-0+proxmox-dev (= 0.5.1-1), librust-proxmox-http-0.5+proxmox-dev (= 0.5.1-1), librust-proxmox-http-0.5.1+proxmox-dev (= 0.5.1-1)
-Filename: ./librust-proxmox-http+proxmox-dev_0.5.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+proxmox-dev_0.5.1-1_arm64.deb
 Size: 1152
 MD5sum: 7174dad43d56234bc217e85cb597924f
 SHA1: 0e31506e3ec95362a0a4948aefffa72bf6a517ca
@@ -1809,7 +1809,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-proxmox-io-1+default-dev
 Provides: librust-proxmox-http-0+proxmox-io-dev (= 0.6.3-1), librust-proxmox-http-0.6+proxmox-io-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+proxmox-io-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+proxmox-io-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+proxmox-io-dev_0.6.3-1_arm64.deb
 Size: 1164
 MD5sum: 3998c2f8c00bafc6eca743a5f543607a
 SHA1: a52796ea059b6f250ed6e84e0e923af4a83c0271
@@ -1829,7 +1829,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-proxmox-lang-1+default-dev (>= 1.1-~~)
 Provides: librust-proxmox-http-0+proxmox-lang-dev (= 0.6.3-1), librust-proxmox-http-0.6+proxmox-lang-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+proxmox-lang-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+proxmox-lang-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+proxmox-lang-dev_0.6.3-1_arm64.deb
 Size: 1172
 MD5sum: ef664c4826345cf9388e1202598e2d4b
 SHA1: 4eae227012fa7ad33f20278bccd2e4eaa253b08b
@@ -1849,7 +1849,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-proxmox-sys-0.3+default-dev
 Provides: librust-proxmox-http-0+proxmox-sys-dev (= 0.6.3-1), librust-proxmox-http-0.6+proxmox-sys-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+proxmox-sys-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+proxmox-sys-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+proxmox-sys-dev_0.6.3-1_arm64.deb
 Size: 1164
 MD5sum: 04995bef372d14706ba6b3d3dabe1689
 SHA1: 10f07187b59e543fea7f542212c5cafe6f1b5a7e
@@ -1869,7 +1869,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-serde-json-1+default-dev
 Provides: librust-proxmox-http-0+serde-json-dev (= 0.6.3-1), librust-proxmox-http-0.6+serde-json-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+serde-json-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+serde-json-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+serde-json-dev_0.6.3-1_arm64.deb
 Size: 1172
 MD5sum: bb95276a9d0deab9d0dff057d4e762b3
 SHA1: 343f7aaa1f9d23acc704b653deb6822a6e308600
@@ -1889,7 +1889,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-tokio-1+default-dev
 Provides: librust-proxmox-http-0+tokio-dev (= 0.6.3-1), librust-proxmox-http-0.6+tokio-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+tokio-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+tokio-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+tokio-dev_0.6.3-1_arm64.deb
 Size: 1160
 MD5sum: 9e0d1335987084c6e1cbd3c1d27301b1
 SHA1: 8f022a0f9280499aecd6d37014c6d3bd0683f1cf
@@ -1909,7 +1909,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-tokio-openssl-0.6+default-dev (>= 0.6.1-~~)
 Provides: librust-proxmox-http-0+tokio-openssl-dev (= 0.6.3-1), librust-proxmox-http-0.6+tokio-openssl-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+tokio-openssl-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+tokio-openssl-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+tokio-openssl-dev_0.6.3-1_arm64.deb
 Size: 1180
 MD5sum: 0b3c8bbf1792ff83ee8f1fa1ceb7912a
 SHA1: aec4fca1d3cd98b0c949f868319804845635069d
@@ -1929,7 +1929,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-url-2+default-dev
 Provides: librust-proxmox-http-0+url-dev (= 0.6.3-1), librust-proxmox-http-0.6+url-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+url-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+url-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+url-dev_0.6.3-1_arm64.deb
 Size: 1160
 MD5sum: fb041cbaf24c9ef72e535d3c558b4f58
 SHA1: 5ca03ff0b52c31683bd0c9a2bd2d692b8183f24b
@@ -1949,7 +1949,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-http-dev (= 0.6.3-1), librust-proxmox-http+base64-dev (= 0.6.3-1), librust-proxmox-http+futures-dev (= 0.6.3-1), librust-proxmox-http+hyper-dev (= 0.6.3-1), librust-proxmox-http+openssl-dev (= 0.6.3-1), librust-proxmox-http+proxmox-sys-dev (= 0.6.3-1), librust-proxmox-http+proxmox-lang-dev (= 0.6.3-1), librust-proxmox-io-1+tokio-dev, librust-tokio-1+io-util-dev, librust-tokio-1+sync-dev
 Provides: librust-proxmox-http-0+websocket-dev (= 0.6.3-1), librust-proxmox-http-0.6+websocket-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+websocket-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http+websocket-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http+websocket-dev_0.6.3-1_arm64.deb
 Size: 1216
 MD5sum: bfb48f167394c8bbd91d17366ff66f6b
 SHA1: 95f8047f2338f9aa2978aad3b103dee6a0cff240
@@ -1970,7 +1970,7 @@ Installed-Size: 86
 Depends: librust-anyhow-1+default-dev
 Suggests: librust-proxmox-http+base64-dev (= 0.6.3-1), librust-proxmox-http+client-dev (= 0.6.3-1), librust-proxmox-http+futures-dev (= 0.6.3-1), librust-proxmox-http+http-dev (= 0.6.3-1), librust-proxmox-http+http-helpers-dev (= 0.6.3-1), librust-proxmox-http+hyper-dev (= 0.6.3-1), librust-proxmox-http+openssl-dev (= 0.6.3-1), librust-proxmox-http+proxmox-async-dev (= 0.6.3-1), librust-proxmox-http+proxmox-io-dev (= 0.6.3-1), librust-proxmox-http+proxmox-lang-dev (= 0.6.3-1), librust-proxmox-http+proxmox-sys-dev (= 0.6.3-1), librust-proxmox-http+serde-json-dev (= 0.6.3-1), librust-proxmox-http+tokio-dev (= 0.6.3-1), librust-proxmox-http+tokio-openssl-dev (= 0.6.3-1), librust-proxmox-http+url-dev (= 0.6.3-1), librust-proxmox-http+websocket-dev (= 0.6.3-1)
 Provides: librust-proxmox-http+default-dev (= 0.6.3-1), librust-proxmox-http-0+default-dev (= 0.6.3-1), librust-proxmox-http-0-dev (= 0.6.3-1), librust-proxmox-http-0.6+default-dev (= 0.6.3-1), librust-proxmox-http-0.6-dev (= 0.6.3-1), librust-proxmox-http-0.6.3+default-dev (= 0.6.3-1), librust-proxmox-http-0.6.3-dev (= 0.6.3-1)
-Filename: ./librust-proxmox-http-dev_0.6.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-http-dev_0.6.3-1_arm64.deb
 Size: 17460
 MD5sum: 0f7f0276fc05b24f15356a2415c17d7f
 SHA1: f8b412cdb453c66d30498160d01c23e22b71a86c
@@ -1990,7 +1990,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-io-dev (= 1.0.1-1), librust-tokio-1+default-dev, librust-tokio-1+io-util-dev
 Provides: librust-proxmox-io-1+tokio-dev (= 1.0.1-1), librust-proxmox-io-1.0+tokio-dev (= 1.0.1-1), librust-proxmox-io-1.0.1+tokio-dev (= 1.0.1-1)
-Filename: ./librust-proxmox-io+tokio-dev_1.0.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-io+tokio-dev_1.0.1-1_arm64.deb
 Size: 1184
 MD5sum: 7e380c51037525c20eaa005d46ea3eab
 SHA1: ef0dc6cee3e4dcd0789d0b8d6f62d2eaf756075b
@@ -2011,7 +2011,7 @@ Installed-Size: 58
 Depends: librust-endian-trait-0.6+arrays-dev, librust-endian-trait-0.6+default-dev
 Suggests: librust-proxmox-io+tokio-dev (= 1.0.1-1)
 Provides: librust-proxmox-io+default-dev (= 1.0.1-1), librust-proxmox-io-1+default-dev (= 1.0.1-1), librust-proxmox-io-1-dev (= 1.0.1-1), librust-proxmox-io-1.0+default-dev (= 1.0.1-1), librust-proxmox-io-1.0-dev (= 1.0.1-1), librust-proxmox-io-1.0.1+default-dev (= 1.0.1-1), librust-proxmox-io-1.0.1-dev (= 1.0.1-1)
-Filename: ./librust-proxmox-io-dev_1.0.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-io-dev_1.0.1-1_arm64.deb
 Size: 11020
 MD5sum: 1d4aa84883591b8523be1afa0c2e8905
 SHA1: 9ab0b48b802c8069e0338407ffd46fb24b5fe16d
@@ -2030,7 +2030,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 24
 Provides: librust-proxmox-lang+default-dev (= 1.1.0-1), librust-proxmox-lang-1+default-dev (= 1.1.0-1), librust-proxmox-lang-1-dev (= 1.1.0-1), librust-proxmox-lang-1.1+default-dev (= 1.1.0-1), librust-proxmox-lang-1.1-dev (= 1.1.0-1), librust-proxmox-lang-1.1.0+default-dev (= 1.1.0-1), librust-proxmox-lang-1.1.0-dev (= 1.1.0-1)
-Filename: ./librust-proxmox-lang-dev_1.1.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-lang-dev_1.1.0-1_arm64.deb
 Size: 5192
 MD5sum: 955319982ae9ae3475b8cd4226767644
 SHA1: b37c739e4d9aba31c9a698a43e61be22a3a4f9d5
@@ -2050,7 +2050,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 34
 Depends: librust-anyhow-1+default-dev, librust-http-0.2+default-dev, librust-native-tls-0.2+default-dev, librust-nix-0.24+default-dev, librust-openidconnect-2+accept-rfc3339-timestamps-dev (>= 2.2-~~), librust-proxmox-sys-0.3+default-dev, librust-proxmox-time-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-thiserror-1+default-dev, librust-ureq-2+gzip-dev (>= 2.4-~~), librust-ureq-2+native-tls-dev (>= 2.4-~~), librust-url-2+default-dev (>= 2.1-~~)
 Provides: librust-proxmox-openid+default-dev (= 0.9.6-1), librust-proxmox-openid-0+default-dev (= 0.9.6-1), librust-proxmox-openid-0-dev (= 0.9.6-1), librust-proxmox-openid-0.9+default-dev (= 0.9.6-1), librust-proxmox-openid-0.9-dev (= 0.9.6-1), librust-proxmox-openid-0.9.6+default-dev (= 0.9.6-1), librust-proxmox-openid-0.9.6-dev (= 0.9.6-1)
-Filename: ./librust-proxmox-openid-dev_0.9.6-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-openid-dev_0.9.6-1_arm64.deb
 Size: 8356
 MD5sum: 98e3075659f0a97882a2500595fceb84
 SHA1: a8aacb7897dd57da1956f735892b3826b1f4990f
@@ -2070,7 +2070,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-router-dev (= 1.2.4-1), librust-proxmox-router+env-logger-dev (= 1.2.4-1), librust-proxmox-router+libc-dev (= 1.2.4-1), librust-proxmox-router+rustyline-dev (= 1.2.4-1), librust-proxmox-router+tokio-dev (= 1.2.4-1)
 Provides: librust-proxmox-router+default-dev (= 1.2.4-1), librust-proxmox-router-1+cli-dev (= 1.2.4-1), librust-proxmox-router-1+default-dev (= 1.2.4-1), librust-proxmox-router-1.2+cli-dev (= 1.2.4-1), librust-proxmox-router-1.2+default-dev (= 1.2.4-1), librust-proxmox-router-1.2.4+cli-dev (= 1.2.4-1), librust-proxmox-router-1.2.4+default-dev (= 1.2.4-1)
-Filename: ./librust-proxmox-router+cli-dev_1.2.4-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-router+cli-dev_1.2.4-1_arm64.deb
 Size: 1244
 MD5sum: b8a8fd925b61d0b9ad73f4c8fcf17c0a
 SHA1: 393bc5b0e7b7cfa99a6d74ef92c06cd38a3abf28
@@ -2092,7 +2092,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-router-dev (= 1.2.4-1), librust-env-logger-0.9+default-dev
 Provides: librust-proxmox-router-1+env-logger-dev (= 1.2.4-1), librust-proxmox-router-1.2+env-logger-dev (= 1.2.4-1), librust-proxmox-router-1.2.4+env-logger-dev (= 1.2.4-1)
-Filename: ./librust-proxmox-router+env-logger-dev_1.2.4-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-router+env-logger-dev_1.2.4-1_arm64.deb
 Size: 1184
 MD5sum: dfda47b664d26422c33ae196740c3f86
 SHA1: b4c1a549eea9581226d04f6d86f90c3346ba7b72
@@ -2112,7 +2112,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-router-dev (= 1.2.4-1), librust-libc-0.2+default-dev
 Provides: librust-proxmox-router-1+libc-dev (= 1.2.4-1), librust-proxmox-router-1.2+libc-dev (= 1.2.4-1), librust-proxmox-router-1.2.4+libc-dev (= 1.2.4-1)
-Filename: ./librust-proxmox-router+libc-dev_1.2.4-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-router+libc-dev_1.2.4-1_arm64.deb
 Size: 1176
 MD5sum: 26f3da38c8939064fa5905a4834494a9
 SHA1: d979f34aa7b4ed1ac71c99b9cf8c1dd395d877f6
@@ -2132,7 +2132,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-router-dev (= 1.2.4-1), librust-rustyline-9+default-dev
 Provides: librust-proxmox-router-1+rustyline-dev (= 1.2.4-1), librust-proxmox-router-1.2+rustyline-dev (= 1.2.4-1), librust-proxmox-router-1.2.4+rustyline-dev (= 1.2.4-1)
-Filename: ./librust-proxmox-router+rustyline-dev_1.2.4-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-router+rustyline-dev_1.2.4-1_arm64.deb
 Size: 1176
 MD5sum: bfdea70fe87abe4f8cf23bd0c1d05fc2
 SHA1: 142637c580dbd9ff4d4bfb1bf2d8c503cf167a33
@@ -2152,7 +2152,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-router-dev (= 1.2.4-1), librust-proxmox-schema-1+test-harness-dev (>= 1.1-~~)
 Provides: librust-proxmox-router-1+test-harness-dev (= 1.2.4-1), librust-proxmox-router-1.2+test-harness-dev (= 1.2.4-1), librust-proxmox-router-1.2.4+test-harness-dev (= 1.2.4-1)
-Filename: ./librust-proxmox-router+test-harness-dev_1.2.4-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-router+test-harness-dev_1.2.4-1_arm64.deb
 Size: 1188
 MD5sum: 1d6dfba0e517c15c78613848117ddebd
 SHA1: 4730cd71f65db291daaf2789908810a30363ab7d
@@ -2172,7 +2172,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-router-dev (= 1.2.4-1), librust-tokio-1+default-dev
 Provides: librust-proxmox-router-1+tokio-dev (= 1.2.4-1), librust-proxmox-router-1.2+tokio-dev (= 1.2.4-1), librust-proxmox-router-1.2.4+tokio-dev (= 1.2.4-1)
-Filename: ./librust-proxmox-router+tokio-dev_1.2.4-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-router+tokio-dev_1.2.4-1_arm64.deb
 Size: 1176
 MD5sum: a643e0ace4e7c3edbb385631c45958f8
 SHA1: 2cad25701ee098b8b59f5be99a3d4bfd4f7af73d
@@ -2194,7 +2194,7 @@ Depends: librust-anyhow-1+default-dev, librust-http-0.2+default-dev, librust-hyp
 Recommends: librust-proxmox-router+cli-dev (= 1.2.4-1)
 Suggests: librust-proxmox-router+env-logger-dev (= 1.2.4-1), librust-proxmox-router+libc-dev (= 1.2.4-1), librust-proxmox-router+rustyline-dev (= 1.2.4-1), librust-proxmox-router+test-harness-dev (= 1.2.4-1), librust-proxmox-router+tokio-dev (= 1.2.4-1)
 Provides: librust-proxmox-router-1-dev (= 1.2.4-1), librust-proxmox-router-1.2-dev (= 1.2.4-1), librust-proxmox-router-1.2.4-dev (= 1.2.4-1)
-Filename: ./librust-proxmox-router-dev_1.2.4-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-router-dev_1.2.4-1_arm64.deb
 Size: 28156
 MD5sum: d0d78d31662c9caeb82dd246802fcd19
 SHA1: 325cc67443ba75c9d678f2330302f3fac083cc8e
@@ -2214,7 +2214,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-schema-dev (= 1.1.0-1), librust-proxmox-api-macro-1+default-dev
 Provides: librust-proxmox-schema+proxmox-api-macro-dev (= 1.1.0-1), librust-proxmox-schema-1+api-macro-dev (= 1.1.0-1), librust-proxmox-schema-1+proxmox-api-macro-dev (= 1.1.0-1), librust-proxmox-schema-1.1+api-macro-dev (= 1.1.0-1), librust-proxmox-schema-1.1+proxmox-api-macro-dev (= 1.1.0-1), librust-proxmox-schema-1.1.0+api-macro-dev (= 1.1.0-1), librust-proxmox-schema-1.1.0+proxmox-api-macro-dev (= 1.1.0-1)
-Filename: ./librust-proxmox-schema+api-macro-dev_1.1.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-schema+api-macro-dev_1.1.0-1_arm64.deb
 Size: 1228
 MD5sum: ecfda6588dd17efa141d53acb05a96ca
 SHA1: 620be5ee4d1416818916169f57e1bc26c3e6db5e
@@ -2236,7 +2236,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-schema-dev (= 1.3.3-1), librust-libc-0.2+default-dev
 Provides: librust-proxmox-schema-1+libc-dev (= 1.3.3-1), librust-proxmox-schema-1.3+libc-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3+libc-dev (= 1.3.3-1)
-Filename: ./librust-proxmox-schema+libc-dev_1.3.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-schema+libc-dev_1.3.3-1_arm64.deb
 Size: 1168
 MD5sum: f531a259b2b7d3d3204cab82ddb6d52d
 SHA1: ce02e9ada1f71e12ca3ed9e5626c8d62273e5ece
@@ -2256,7 +2256,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-schema-dev (= 1.3.3-1), librust-nix-0.24+default-dev (>= 0.24.1-~~)
 Provides: librust-proxmox-schema-1+nix-dev (= 1.3.3-1), librust-proxmox-schema-1.3+nix-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3+nix-dev (= 1.3.3-1)
-Filename: ./librust-proxmox-schema+nix-dev_1.3.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-schema+nix-dev_1.3.3-1_arm64.deb
 Size: 1180
 MD5sum: a4ee85352511916ffa942d4a2d4f98f0
 SHA1: 8fa4d612b1f8837cae913281fa55157aac11c261
@@ -2276,7 +2276,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-schema-dev (= 1.3.3-1), librust-proxmox-api-macro-1+default-dev (>= 1.0.3-~~)
 Provides: librust-proxmox-schema+api-macro-dev (= 1.3.3-1), librust-proxmox-schema-1+api-macro-dev (= 1.3.3-1), librust-proxmox-schema-1+proxmox-api-macro-dev (= 1.3.3-1), librust-proxmox-schema-1.3+api-macro-dev (= 1.3.3-1), librust-proxmox-schema-1.3+proxmox-api-macro-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3+api-macro-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3+proxmox-api-macro-dev (= 1.3.3-1)
-Filename: ./librust-proxmox-schema+proxmox-api-macro-dev_1.3.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-schema+proxmox-api-macro-dev_1.3.3-1_arm64.deb
 Size: 1240
 MD5sum: cf766bcdb1224b83572c9853d766adf4
 SHA1: ee6da103133d3efe12eed7aecc33c2ab1ac42578
@@ -2299,7 +2299,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-schema-dev (= 1.3.3-1), librust-proxmox-schema+libc-dev (= 1.3.3-1), librust-proxmox-schema+nix-dev (= 1.3.3-1)
 Provides: librust-proxmox-schema-1+upid-api-impl-dev (= 1.3.3-1), librust-proxmox-schema-1.3+upid-api-impl-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3+upid-api-impl-dev (= 1.3.3-1)
-Filename: ./librust-proxmox-schema+upid-api-impl-dev_1.3.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-schema+upid-api-impl-dev_1.3.3-1_arm64.deb
 Size: 1180
 MD5sum: 5cc3e46fdd6c00a8a4ccb192350fac9a
 SHA1: 43561b6715b8a561eaf946c291a9508afb885bee
@@ -2320,7 +2320,7 @@ Installed-Size: 128
 Depends: librust-anyhow-1+default-dev, librust-lazy-static-1+default-dev (>= 1.4-~~), librust-regex-1+default-dev (>= 1.5-~~), librust-serde-1+default-dev, librust-serde-json-1+default-dev, librust-textwrap-0.11+default-dev
 Suggests: librust-proxmox-schema+libc-dev (= 1.3.3-1), librust-proxmox-schema+nix-dev (= 1.3.3-1), librust-proxmox-schema+proxmox-api-macro-dev (= 1.3.3-1), librust-proxmox-schema+upid-api-impl-dev (= 1.3.3-1)
 Provides: librust-proxmox-schema+default-dev (= 1.3.3-1), librust-proxmox-schema+test-harness-dev (= 1.3.3-1), librust-proxmox-schema-1+default-dev (= 1.3.3-1), librust-proxmox-schema-1+test-harness-dev (= 1.3.3-1), librust-proxmox-schema-1-dev (= 1.3.3-1), librust-proxmox-schema-1.3+default-dev (= 1.3.3-1), librust-proxmox-schema-1.3+test-harness-dev (= 1.3.3-1), librust-proxmox-schema-1.3-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3+default-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3+test-harness-dev (= 1.3.3-1), librust-proxmox-schema-1.3.3-dev (= 1.3.3-1)
-Filename: ./librust-proxmox-schema-dev_1.3.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-schema-dev_1.3.3-1_arm64.deb
 Size: 23680
 MD5sum: 6528720e605494108307eafd21610202
 SHA1: 9eb57b55c1c6519da94c551e719c11e13ab79219
@@ -2340,7 +2340,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 43
 Depends: librust-anyhow-1+default-dev, librust-hex-0.4+default-dev, librust-proxmox-lang-1+default-dev (>= 1.1-~~), librust-proxmox-schema-1+default-dev (>= 1.1-~~), librust-serde-1+default-dev, librust-serde-json-1+default-dev
 Provides: librust-proxmox-section-config+default-dev (= 1.0.0-1), librust-proxmox-section-config-1+default-dev (= 1.0.0-1), librust-proxmox-section-config-1-dev (= 1.0.0-1), librust-proxmox-section-config-1.0+default-dev (= 1.0.0-1), librust-proxmox-section-config-1.0-dev (= 1.0.0-1), librust-proxmox-section-config-1.0.0+default-dev (= 1.0.0-1), librust-proxmox-section-config-1.0.0-dev (= 1.0.0-1)
-Filename: ./librust-proxmox-section-config-dev_1.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-section-config-dev_1.0.0-1_arm64.deb
 Size: 7956
 MD5sum: e18ad7cecb48b1f0c2406c5e3cf5e18a
 SHA1: c9bf6117fd187ea170e83ba73ae5fb98cfab1925
@@ -2360,7 +2360,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-serde-dev (= 0.1.1), librust-serde-json-1+default-dev
 Provides: librust-proxmox-serde-0+serde-json-dev (= 0.1.1), librust-proxmox-serde-0.1+serde-json-dev (= 0.1.1), librust-proxmox-serde-0.1.1+serde-json-dev (= 0.1.1)
-Filename: ./librust-proxmox-serde+serde-json-dev_0.1.1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-serde+serde-json-dev_0.1.1_arm64.deb
 Size: 1168
 MD5sum: 58f8b78a28439857b4b9f2c10cdeb6d9
 SHA1: d35a4b881c66a568f331e4109402df72b7283757
@@ -2381,7 +2381,7 @@ Installed-Size: 27
 Depends: librust-anyhow-1+default-dev, librust-base64-0.13+default-dev, librust-proxmox-time-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, uuid-dev
 Suggests: librust-proxmox-serde+serde-json-dev (= 0.1.1)
 Provides: librust-proxmox-serde+default-dev (= 0.1.1), librust-proxmox-serde-0+default-dev (= 0.1.1), librust-proxmox-serde-0-dev (= 0.1.1), librust-proxmox-serde-0.1+default-dev (= 0.1.1), librust-proxmox-serde-0.1-dev (= 0.1.1), librust-proxmox-serde-0.1.1+default-dev (= 0.1.1), librust-proxmox-serde-0.1.1-dev (= 0.1.1)
-Filename: ./librust-proxmox-serde-dev_0.1.1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-serde-dev_0.1.1_arm64.deb
 Size: 5184
 MD5sum: 42a9082d517518e20b80cd0f9553ff44
 SHA1: 223e582fd2ea57815877c17193e4b98d52897db3
@@ -2401,7 +2401,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 33
 Depends: librust-anyhow-1+default-dev, librust-libc-0.2+default-dev (>= 0.2.107-~~), librust-nix-0.24+default-dev (>= 0.24.1-~~), librust-proxmox-sys-0.3+default-dev
 Provides: librust-proxmox-shared-memory+default-dev (= 0.2.1-1), librust-proxmox-shared-memory-0+default-dev (= 0.2.1-1), librust-proxmox-shared-memory-0-dev (= 0.2.1-1), librust-proxmox-shared-memory-0.2+default-dev (= 0.2.1-1), librust-proxmox-shared-memory-0.2-dev (= 0.2.1-1), librust-proxmox-shared-memory-0.2.1+default-dev (= 0.2.1-1), librust-proxmox-shared-memory-0.2.1-dev (= 0.2.1-1)
-Filename: ./librust-proxmox-shared-memory-dev_0.2.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-shared-memory-dev_0.2.1-1_arm64.deb
 Size: 7016
 MD5sum: 4c274225dae158b3e0ce00abf5af5442
 SHA1: d8fa7c5c47fdf83d79efb784f9a3e9567b12f12e
@@ -2421,7 +2421,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 20
 Depends: librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-syn-1+default-dev, librust-syn-1+full-dev, librust-syn-1+visit-mut-dev
 Provides: librust-proxmox-sortable-macro+default-dev (= 0.1.2-1), librust-proxmox-sortable-macro-0+default-dev (= 0.1.2-1), librust-proxmox-sortable-macro-0-dev (= 0.1.2-1), librust-proxmox-sortable-macro-0.1+default-dev (= 0.1.2-1), librust-proxmox-sortable-macro-0.1-dev (= 0.1.2-1), librust-proxmox-sortable-macro-0.1.2+default-dev (= 0.1.2-1), librust-proxmox-sortable-macro-0.1.2-dev (= 0.1.2-1)
-Filename: ./librust-proxmox-sortable-macro-dev_0.1.2-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-sortable-macro-dev_0.1.2-1_arm64.deb
 Size: 4116
 MD5sum: 76819c54a8ec02daa2fae074762080c8
 SHA1: 556358a7a2bc8e71bd7a1a21fb3998fd2b5c1186
@@ -2441,7 +2441,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-sys-dev (= 0.3.2), librust-proxmox-sortable-macro-0.1+default-dev (>= 0.1.2-~~)
 Provides: librust-proxmox-sys+sortable-macro-dev (= 0.3.2), librust-proxmox-sys-0+proxmox-sortable-macro-dev (= 0.3.2), librust-proxmox-sys-0+sortable-macro-dev (= 0.3.2), librust-proxmox-sys-0.3+proxmox-sortable-macro-dev (= 0.3.2), librust-proxmox-sys-0.3+sortable-macro-dev (= 0.3.2), librust-proxmox-sys-0.3.2+proxmox-sortable-macro-dev (= 0.3.2), librust-proxmox-sys-0.3.2+sortable-macro-dev (= 0.3.2)
-Filename: ./librust-proxmox-sys+proxmox-sortable-macro-dev_0.3.2_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-sys+proxmox-sortable-macro-dev_0.3.2_arm64.deb
 Size: 1252
 MD5sum: 2042256cda1f795faa903c97d2630fde
 SHA1: a7ca3b87fc4fbdb3c43ddebc81709788913464c2
@@ -2464,7 +2464,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-sys-dev (= 0.3.2), librust-zstd-0.6+bindgen-dev, librust-zstd-0.6+default-dev
 Provides: librust-proxmox-sys+logrotate-dev (= 0.3.2), librust-proxmox-sys-0+logrotate-dev (= 0.3.2), librust-proxmox-sys-0+zstd-dev (= 0.3.2), librust-proxmox-sys-0.3+logrotate-dev (= 0.3.2), librust-proxmox-sys-0.3+zstd-dev (= 0.3.2), librust-proxmox-sys-0.3.2+logrotate-dev (= 0.3.2), librust-proxmox-sys-0.3.2+zstd-dev (= 0.3.2)
-Filename: ./librust-proxmox-sys+zstd-dev_0.3.2_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-sys+zstd-dev_0.3.2_arm64.deb
 Size: 1228
 MD5sum: d0c86eda35146b228ad9ee6821dc464b
 SHA1: a94d485d3d69aad41fdec852651f717cedbb2250
@@ -2487,7 +2487,7 @@ Installed-Size: 193
 Depends: librust-anyhow-1+default-dev, librust-base64-0.13+default-dev, librust-lazy-static-1+default-dev (>= 1.4-~~), librust-libc-0.2+default-dev (>= 0.2.107-~~), librust-log-0.4+default-dev (>= 0.4.17-~~), librust-nix-0.24+default-dev (>= 0.24.1-~~), librust-proxmox-borrow-1+default-dev, librust-proxmox-io-1+default-dev, librust-proxmox-lang-1+default-dev (>= 1.1-~~), librust-proxmox-time-1+default-dev, librust-regex-1+default-dev (>= 1.2-~~), librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, libacl1-dev, uuid-dev
 Suggests: librust-proxmox-sys+proxmox-sortable-macro-dev (= 0.3.2), librust-proxmox-sys+zstd-dev (= 0.3.2)
 Provides: librust-proxmox-sys+default-dev (= 0.3.2), librust-proxmox-sys-0+default-dev (= 0.3.2), librust-proxmox-sys-0-dev (= 0.3.2), librust-proxmox-sys-0.3+default-dev (= 0.3.2), librust-proxmox-sys-0.3-dev (= 0.3.2), librust-proxmox-sys-0.3.2+default-dev (= 0.3.2), librust-proxmox-sys-0.3.2-dev (= 0.3.2)
-Filename: ./librust-proxmox-sys-dev_0.3.2_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-sys-dev_0.3.2_arm64.deb
 Size: 41696
 MD5sum: 742956dbf6c0112c37ac1b2461f671db
 SHA1: 3f037a7612a123157bea9aa1019de43e7154de5a
@@ -2507,7 +2507,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-proxmox-tfa+u2f-dev (= 2.0.0-1), librust-proxmox-tfa+webauthn-rs-dev (= 2.0.0-1), librust-proxmox-tfa+proxmox-uuid-dev (= 2.0.0-1), librust-proxmox-tfa+proxmox-time-dev (= 2.0.0-1)
 Provides: librust-proxmox-tfa-2+api-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+api-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+api-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+api-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+api-dev_2.0.0-1_arm64.deb
 Size: 1180
 MD5sum: 806eb3d2a6123e4dde22d35b955e9914
 SHA1: 7fbf3f766bf64f4777ae8f58a422f092d0c297c0
@@ -2527,7 +2527,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-proxmox-schema-1+api-macro-dev, librust-proxmox-schema-1+default-dev
 Provides: librust-proxmox-tfa+proxmox-schema-dev (= 2.0.0-1), librust-proxmox-tfa-2+api-types-dev (= 2.0.0-1), librust-proxmox-tfa-2+proxmox-schema-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+api-types-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+proxmox-schema-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+api-types-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+proxmox-schema-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+api-types-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+api-types-dev_2.0.0-1_arm64.deb
 Size: 1244
 MD5sum: b7cbddf45e4115e28e85dc3232583996
 SHA1: 40b9231d026b135fe9c74a32a54d74d3d3ee8a75
@@ -2549,7 +2549,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-libc-0.2+default-dev
 Provides: librust-proxmox-tfa-2+libc-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+libc-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+libc-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+libc-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+libc-dev_2.0.0-1_arm64.deb
 Size: 1168
 MD5sum: 0f89ad5b47c1d615d19e5f30c7617b61
 SHA1: 4b93bb8b0e92c2585d202fe8982992a5a6deb632
@@ -2569,7 +2569,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-proxmox-schema-1+api-macro-dev, librust-proxmox-schema-1+default-dev
 Provides: librust-proxmox-tfa+api-types-dev (= 2.0.0-1), librust-proxmox-tfa-2+api-types-dev (= 2.0.0-1), librust-proxmox-tfa-2+proxmox-schema-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+api-types-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+proxmox-schema-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+api-types-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+proxmox-schema-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+proxmox-schema-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+proxmox-schema-dev_2.0.0-1_arm64.deb
 Size: 1240
 MD5sum: 3a20de0c66a9a263510149ee02edf545
 SHA1: 5f924c47180f6dd064327c19a7b37975ac72f692
@@ -2591,7 +2591,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-proxmox-time-1+default-dev
 Provides: librust-proxmox-tfa-2+proxmox-time-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+proxmox-time-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+proxmox-time-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+proxmox-time-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+proxmox-time-dev_2.0.0-1_arm64.deb
 Size: 1168
 MD5sum: f5e5dcbf3c87103f4af7f39d78b24a2e
 SHA1: 5e0c4d40561372b94e026e5156fc499a194606ed
@@ -2611,7 +2611,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-proxmox-uuid-1+default-dev
 Provides: librust-proxmox-tfa-2+proxmox-uuid-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+proxmox-uuid-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+proxmox-uuid-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+proxmox-uuid-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+proxmox-uuid-dev_2.0.0-1_arm64.deb
 Size: 1172
 MD5sum: 5bdad167929ed68ad0d563b39fe017df
 SHA1: 7b50b1727d486c5698121a879b31791801544501
@@ -2631,7 +2631,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-serde-json-1+default-dev
 Provides: librust-proxmox-tfa-2+serde-json-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+serde-json-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+serde-json-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+serde-json-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+serde-json-dev_2.0.0-1_arm64.deb
 Size: 1184
 MD5sum: 8b90cc1c6a12a01b2357258bdfa664ec
 SHA1: 5309205a3d929c645d27f60de5946761adb216f5
@@ -2651,7 +2651,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-proxmox-tfa+libc-dev (= 2.0.0-1), librust-proxmox-tfa+serde-json-dev (= 2.0.0-1), librust-serde-1+derive-dev
 Provides: librust-proxmox-tfa-2+u2f-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+u2f-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+u2f-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+u2f-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+u2f-dev_2.0.0-1_arm64.deb
 Size: 1176
 MD5sum: 3ac15cf62562ca15e29f8178ff3f5b0b
 SHA1: e1459d24a7c4e988d4654e2ee5ddf6a6bd8fac33
@@ -2671,7 +2671,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-tfa-dev (= 2.0.0-1), librust-webauthn-rs-0.3+default-dev
 Provides: librust-proxmox-tfa-2+webauthn-rs-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+webauthn-rs-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+webauthn-rs-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa+webauthn-rs-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa+webauthn-rs-dev_2.0.0-1_arm64.deb
 Size: 1184
 MD5sum: cbc0d33d37d07dd0ab523a27ac574c8c
 SHA1: 21b1487a38f26dfe3f4de9a43af339756e5115ad
@@ -2692,7 +2692,7 @@ Installed-Size: 123
 Depends: librust-anyhow-1+default-dev, librust-base32-0.4+default-dev, librust-base64-0.13+default-dev, librust-hex-0.4+default-dev, librust-openssl-0.10+default-dev, librust-percent-encoding-2+default-dev (>= 2.1-~~), librust-serde-1+default-dev, librust-serde-plain-1+default-dev, librust-url-2+default-dev (>= 2.2-~~)
 Suggests: librust-proxmox-tfa+api-dev (= 2.0.0-1), librust-proxmox-tfa+libc-dev (= 2.0.0-1), librust-proxmox-tfa+proxmox-schema-dev (= 2.0.0-1), librust-proxmox-tfa+proxmox-time-dev (= 2.0.0-1), librust-proxmox-tfa+proxmox-uuid-dev (= 2.0.0-1), librust-proxmox-tfa+serde-json-dev (= 2.0.0-1), librust-proxmox-tfa+u2f-dev (= 2.0.0-1), librust-proxmox-tfa+webauthn-rs-dev (= 2.0.0-1)
 Provides: librust-proxmox-tfa+default-dev (= 2.0.0-1), librust-proxmox-tfa-2+default-dev (= 2.0.0-1), librust-proxmox-tfa-2-dev (= 2.0.0-1), librust-proxmox-tfa-2.0+default-dev (= 2.0.0-1), librust-proxmox-tfa-2.0-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0+default-dev (= 2.0.0-1), librust-proxmox-tfa-2.0.0-dev (= 2.0.0-1)
-Filename: ./librust-proxmox-tfa-dev_2.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-tfa-dev_2.0.0-1_arm64.deb
 Size: 25756
 MD5sum: 9ff430600d17a8c23d61f9ad3f690864
 SHA1: 0dec75009fdcfe69b282634ae95109a8acb76ca0
@@ -2712,7 +2712,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 81
 Depends: librust-anyhow-1+default-dev, librust-bitflags-1+default-dev (>= 1.2.1-~~), librust-js-sys-0.3+default-dev (>= 0.3.55-~~), librust-lazy-static-1+default-dev (>= 1.4-~~), librust-libc-0.2+default-dev, librust-libc-0.2+extra-traits-dev, librust-nom-5+default-dev (>= 5.1-~~)
 Provides: librust-proxmox-time+default-dev (= 1.1.3-1), librust-proxmox-time-1+default-dev (= 1.1.3-1), librust-proxmox-time-1-dev (= 1.1.3-1), librust-proxmox-time-1.1+default-dev (= 1.1.3-1), librust-proxmox-time-1.1-dev (= 1.1.3-1), librust-proxmox-time-1.1.3+default-dev (= 1.1.3-1), librust-proxmox-time-1.1.3-dev (= 1.1.3-1)
-Filename: ./librust-proxmox-time-dev_1.1.3-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-time-dev_1.1.3-1_arm64.deb
 Size: 15620
 MD5sum: 45e1b3a2853dbcb2538734c72954bd6a
 SHA1: 4c2cbfc1d03f10fb483a89ac61892c001b67c997
@@ -2732,7 +2732,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 9
 Depends: librust-proxmox-uuid-dev (= 1.0.1-1), librust-serde-1+default-dev
 Provides: librust-proxmox-uuid-1+serde-dev (= 1.0.1-1), librust-proxmox-uuid-1.0+serde-dev (= 1.0.1-1), librust-proxmox-uuid-1.0.1+serde-dev (= 1.0.1-1)
-Filename: ./librust-proxmox-uuid+serde-dev_1.0.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-uuid+serde-dev_1.0.1-1_arm64.deb
 Size: 1172
 MD5sum: ab68dab53b604666b870a2e9abaf1ce4
 SHA1: 8636cfda1c78682b33ec6824bddb490aba6b8574
@@ -2753,7 +2753,7 @@ Installed-Size: 26
 Depends: librust-js-sys-0.3+default-dev (>= 0.3.55-~~), librust-libc-0.2+default-dev, uuid-dev
 Suggests: librust-proxmox-uuid+serde-dev (= 1.0.1-1)
 Provides: librust-proxmox-uuid+default-dev (= 1.0.1-1), librust-proxmox-uuid-1+default-dev (= 1.0.1-1), librust-proxmox-uuid-1-dev (= 1.0.1-1), librust-proxmox-uuid-1.0+default-dev (= 1.0.1-1), librust-proxmox-uuid-1.0-dev (= 1.0.1-1), librust-proxmox-uuid-1.0.1+default-dev (= 1.0.1-1), librust-proxmox-uuid-1.0.1-dev (= 1.0.1-1)
-Filename: ./librust-proxmox-uuid-dev_1.0.1-1_arm64.deb
+Filename: dev/main/binary-arm64/librust-proxmox-uuid-dev_1.0.1-1_arm64.deb
 Size: 5676
 MD5sum: 6c9951b0ce719bd059c5d10464dd2fb0
 SHA1: 544d9ed2a5bf97a793afc9a9127a9d45df7cf0cc
@@ -2772,7 +2772,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 61
 Depends: libcorosync-common-dev (= 3.1.5-pve2), libsam4 (= 3.1.5-pve2)
-Filename: ./libsam-dev_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libsam-dev_3.1.5-pve2_arm64.deb
 Size: 32660
 MD5sum: f8393a808174709b38d065d568b3496e
 SHA1: 5cd06813b218a89fd5fe7b98405e373e8031ae17
@@ -2807,7 +2807,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 41
 Depends: libc6 (>= 2.17), libcmap4 (>= 1.99.9), libquorum5 (>= 1.99.9)
-Filename: ./libsam4_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libsam4_3.1.5-pve2_arm64.deb
 Size: 12588
 MD5sum: f11ed86f48664220c076fcaa5bd911b2
 SHA1: 9990da66dc5c9e265d0ac0335514fb1e1e76ebf1
@@ -2841,7 +2841,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 369
 Depends: libc6 (>= 2.30), libgcc-s1 (>= 3.0), librados2, libstdc++6 (>= 6)
-Filename: ./libsqlite3-mod-ceph_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libsqlite3-mod-ceph_16.2.7_arm64.deb
 Size: 111416
 MD5sum: 1ea7b8600caccc9e929db531c2a8f53c
 SHA1: 1de50cf7b17c934406451d9aa1c727bfc7f5c0de
@@ -2862,7 +2862,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 18
 Depends: libsqlite3-mod-ceph (= 16.2.7), libsqlite3-dev
-Filename: ./libsqlite3-mod-ceph-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/libsqlite3-mod-ceph-dev_16.2.7_arm64.deb
 Size: 10332
 MD5sum: 6c9d09ab241e2cb77cb31d8bd510d65a
 SHA1: cce60752c2308a61f11ab8891f751adc5298873f
@@ -2884,7 +2884,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 65
 Depends: libcorosync-common-dev (= 3.1.5-pve2), libvotequorum8 (= 3.1.5-pve2)
-Filename: ./libvotequorum-dev_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libvotequorum-dev_3.1.5-pve2_arm64.deb
 Size: 38376
 MD5sum: 62a5bf9b2dec012eb72b957db030e9a7
 SHA1: f1c2ed2053a54f31925b943b38c262f205803477
@@ -2919,7 +2919,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 33
 Depends: libc6 (>= 2.17), libcorosync-common4 (>= 1.99.9), libqb100 (>= 2.0.1)
-Filename: ./libvotequorum8_3.1.5-pve2_arm64.deb
+Filename: dev/main/binary-arm64/libvotequorum8_3.1.5-pve2_arm64.deb
 Size: 10188
 MD5sum: 83a2246d6c601acef758789d4bf0006f
 SHA1: 2d7a4961546807f6dda43b032d48643a574674a0
@@ -2953,7 +2953,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 3380
 Depends: linux-base, libbabeltrace1 (>= 1.5.4), libc6 (>= 2.28), libcap2 (>= 1:2.10), libdw1 (>= 0.158), libelf1 (>= 0.144), liblzma5 (>= 5.1.1alpha+20120614), libnuma1 (>= 2.0.11), libslang2 (>= 2.2.4), libzstd1 (>= 1.4.0), zlib1g (>= 1:1.2.3.3)
-Filename: ./linux-tools-5.10_5.10.110-1_arm64.deb
+Filename: dev/main/binary-arm64/linux-tools-5.10_5.10.110-1_arm64.deb
 Size: 1142780
 MD5sum: 84d075c7ff61a98956791a7585faad34
 SHA1: 928f6db317cc0ae6b5f5b205232a96036d33add9
@@ -2974,7 +2974,7 @@ Conflicts: liblxc1, lxc
 Breaks: pve-container (<< 3.1-1)
 Replaces: liblxc1, lxc
 Provides: liblxc1, lxc
-Filename: ./lxc-pve_5.0.0-3_arm64.deb
+Filename: dev/main/binary-arm64/lxc-pve_5.0.0-3_arm64.deb
 Size: 3334712
 MD5sum: 56bcd03987951bbd894f0501d88a968b
 SHA1: e256f1b08c9078ce52c4408019688bbb59b7f8fd
@@ -2996,7 +2996,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 63
 Depends: lxc-pve (= 5.0.0-3)
-Filename: ./lxc-pve-dev_5.0.0-3_arm64.deb
+Filename: dev/main/binary-arm64/lxc-pve-dev_5.0.0-3_arm64.deb
 Size: 15380
 MD5sum: 802098784901f768bbb8d10bd2993dbd
 SHA1: cd35d2220bcba16742f63fdf337f9deb1950013d
@@ -3018,7 +3018,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 11586
 Depends: qrencode, libacl1 (>= 2.2.23), libc6 (>= 2.29), libfuse3-3 (>= 3.2.3), libgcc-s1 (>= 4.2), libssl1.1 (>= 1.1.0), libzstd1 (>= 1.4.0)
-Filename: ./proxmox-backup-client_2.2.3-2_arm64.deb
+Filename: dev/main/binary-arm64/proxmox-backup-client_2.2.3-2_arm64.deb
 Size: 2442004
 MD5sum: 07d07b4b971944dc1fc431d2627bf7fe
 SHA1: 3d75a0f316a82ac8fa469461c3feb3e07e786a00
@@ -3039,7 +3039,7 @@ Installed-Size: 12111
 Depends: libacl1 (>= 2.2.23), libc6 (>= 2.29), libgcc-s1 (>= 4.2), libssl1.1 (>= 1.1.0), libuuid1 (>= 2.16), libzstd1 (>= 1.4.0)
 Recommends: pve-qemu-kvm (>= 5.0.0-9), proxmox-backup-restore-image
 Breaks: proxmox-backup-restore-image (<< 0.3.1)
-Filename: ./proxmox-backup-file-restore_2.2.3-2_arm64.deb
+Filename: dev/main/binary-arm64/proxmox-backup-file-restore_2.2.3-2_arm64.deb
 Size: 2421328
 MD5sum: 177ee877fb6693d58527cf3086784758
 SHA1: 4e2966f7f5da822304f0c2cea1086322248daabf
@@ -3060,7 +3060,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 91894
 Depends: fonts-font-awesome, libjs-extjs (>= 7~), libjs-qrcodejs (>= 1.20201119), libproxmox-acme-plugins, libsgutils2-2 (>= 1.43), libzstd1 (>= 1.4.0), lvm2, openssh-server, pbs-i18n, postfix | mail-transport-agent, proxmox-backup-docs, proxmox-mini-journalreader, proxmox-widget-toolkit (>= 3.4-3), pve-xtermjs (>= 4.7.0-1), sg3-utils, smartmontools, libapt-pkg6.0 (>= 1.9~), libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 4.2), libpam0g (>= 0.99.7.1), libssl1.1 (>= 1.1.1), libstdc++6 (>= 5.2), libsystemd0 (>= 246), libudev1 (>= 183), libuuid1 (>= 2.16)
 Recommends: zfsutils-linux, ifupdown2
-Filename: ./proxmox-backup-server_2.2.3-2_arm64.deb
+Filename: dev/main/binary-arm64/proxmox-backup-server_2.2.3-2_arm64.deb
 Size: 20949268
 MD5sum: e49e129112236568358248eb5a325fa1
 SHA1: 2f35717d34af895b6496d0dc3603f865693d1109
@@ -3078,7 +3078,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 24
 Depends: libc6 (>= 2.17), libsystemd0
-Filename: ./proxmox-mini-journalreader_1.3-1rpve1_arm64.deb
+Filename: dev/main/binary-arm64/proxmox-mini-journalreader_1.3-1rpve1_arm64.deb
 Size: 7280
 MD5sum: 95e6399d61e7abfe111e3ebcb09a7661
 SHA1: 0e2a7fc4a1da86658a8ff8de7d7f07369e6d7ca5
@@ -3096,7 +3096,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 2654
 Depends: libacl1 (>= 2.2.23), libc6 (>= 2.28), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 4.2), libssl1.1 (>= 1.1.0), libzstd1 (>= 1.4.0)
-Filename: ./proxmox-websocket-tunnel_0.1.0-1_arm64.deb
+Filename: dev/main/binary-arm64/proxmox-websocket-tunnel_0.1.0-1_arm64.deb
 Size: 731468
 MD5sum: 3b8385fcac928ac822cc2189ca5bfcb6
 SHA1: 89ff281c834372c9365660a3c0f86c6d4c95d39b
@@ -3117,7 +3117,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 399
 Depends: corosync (>= 2.3.4-1), fuse, libfuse2 (>= 2.9.2-4), libglib2.0-0 (>= 2.42.1-1), libpve-common-perl (>= 6.0-7~), libqb100 (>= 2.0.1-1), libsqlite3-0 (>= 3.20.0), sqlite3, systemd, perl, perlapi-5.36.0, libc6 (>= 2.17), libcmap4 (>= 1.99.9), libcpg4 (>= 2.3.4-1), libquorum5 (>= 2.3.4-1), librrd8 (>= 1.4~rc2)
 Breaks: libpve-access-control (<= 6.0-3), libpve-guest-common-perl (<= 3.0-2), libpve-storage-perl (<= 6.0-9), pve-container (<= 3.0-10), pve-ha-manager (<= 3.0-3), pve-manager (<= 6.0-12), qemu-server (<= 6.0-13)
-Filename: ./pve-cluster_7.2-2_arm64.deb
+Filename: dev/main/binary-arm64/pve-cluster_7.2-2_arm64.deb
 Size: 108288
 MD5sum: fe2dfa14f8c6047e236569a8beac69ca
 SHA1: 0952689048520a5f1309ed8f2be7e0c2bde6605e
@@ -3135,7 +3135,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 800
 Depends: asciidoc-base, libpve-common-perl, source-highlight, xmlto, perl:any
-Filename: ./pve-doc-generator_7.2-2_arm64.deb
+Filename: dev/main/binary-arm64/pve-doc-generator_7.2-2_arm64.deb
 Size: 158692
 MD5sum: f2af28d1fe03ed1ae436bdab4360b445
 SHA1: 6ce36f0dbb7dc0329d0b7755c242722d26d9b9fd
@@ -3154,7 +3154,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 334
 Depends: ebtables, ipset, iptables, libpve-access-control, libpve-cluster-perl, libpve-common-perl, lsb-base, pve-cluster (>= 6.1-6), perl:any, libc6 (>= 2.17), libglib2.0-0 (>= 2.31.18), libnetfilter-conntrack3 (>= 1.0.1), libnetfilter-log1 (>= 0.0.15), libnfnetlink0
 Conflicts: ulogd
-Filename: ./pve-firewall_4.2-5_arm64.deb
+Filename: dev/main/binary-arm64/pve-firewall_4.2-5_arm64.deb
 Size: 70976
 MD5sum: def2748ed3b3d11b13ebc6f0d60ed138
 SHA1: e0649a32551bb76ef1616d2810418e6676d0720a
@@ -3171,7 +3171,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 241
 Depends: libjson-perl, libpve-cluster-perl, libpve-common-perl, pve-cluster (>= 3.0-17), pve-container, qemu-server (>= 6.0-15), systemd, perl:any, libc6 (>= 2.17)
 Conflicts: watchdog
-Filename: ./pve-ha-manager_3.3-4_arm64.deb
+Filename: dev/main/binary-arm64/pve-ha-manager_3.3-4_arm64.deb
 Size: 57684
 MD5sum: af36697b4b102b6cb23e4fb0b80dd1d5
 SHA1: 3b5891fd5ab805c986d1a81a91d48a7088947b1d
@@ -3189,7 +3189,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 61286
 Depends: coreutils | fileutils (>= 4.0)
 Provides: linux-headers-5.10.110-1-pve-amd64
-Filename: ./pve-headers-5.10.110-1-pve_5.10.110-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-headers-5.10.110-1-pve_5.10.110-1_arm64.deb
 Size: 9719992
 MD5sum: 4b7fe44d60e5afad01fd100ec3d6147c
 SHA1: d475500347823ce62e8f4d1be1c94348b6b6b1c7
@@ -3207,7 +3207,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 61242
 Depends: coreutils | fileutils (>= 4.0)
 Provides: linux-headers
-Filename: ./pve-headers-5.10.83-1-pve_5.10.83-4_arm64.deb
+Filename: dev/main/binary-arm64/pve-headers-5.10.83-1-pve_5.10.83-4_arm64.deb
 Size: 9711176
 MD5sum: 7f376d92535d07beb1ed740b8b34eb34
 SHA1: 63b18a0b1e29566cb00bb9616d8725557086ebb2
@@ -3225,7 +3225,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 61256
 Depends: coreutils | fileutils (>= 4.0)
 Provides: linux-headers
-Filename: ./pve-headers-5.10.90-1-pve_5.10.90-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-headers-5.10.90-1-pve_5.10.90-1_arm64.deb
 Size: 9714196
 MD5sum: a6bf1e5019f607741da9cefec21cb6ca
 SHA1: ab0b1ebb9958065df63d289ceb9f288430135be8
@@ -3243,7 +3243,7 @@ Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 61257
 Depends: coreutils | fileutils (>= 4.0)
 Provides: linux-headers
-Filename: ./pve-headers-5.10.95-1-pve_5.10.95-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-headers-5.10.95-1-pve_5.10.95-1_arm64.deb
 Size: 9715012
 MD5sum: cc655d83d9dddb3b7ae71eddb7080e56
 SHA1: 31b850136c1840956addd8162b33557e3d45411c
@@ -3265,7 +3265,7 @@ Suggests: pve-firmware
 Conflicts: linux-image
 Replaces: linux-image
 Provides: linux-image
-Filename: ./pve-kernel-5.10.110-1-pve_5.10.110-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-kernel-5.10.110-1-pve_5.10.110-1_arm64.deb
 Size: 24822044
 MD5sum: 0b5113b6d12b58d5d0cce6dcbfa06302
 SHA1: 6c5cbfb102d288c6dd660f5dd485fdcc774e7199
@@ -3285,7 +3285,7 @@ Depends: busybox, initramfs-tools
 Recommends: grub-pc | grub-efi-amd64 | grub-efi-ia32 | grub-efi-arm64
 Suggests: pve-firmware
 Provides: linux-image
-Filename: ./pve-kernel-5.10.83-1-pve_5.10.83-4_arm64.deb
+Filename: dev/main/binary-arm64/pve-kernel-5.10.83-1-pve_5.10.83-4_arm64.deb
 Size: 24789364
 MD5sum: b641866998744e1520c5a5dccb66343a
 SHA1: 12a5d4cdc5953a827242df48a794ef917dc7cabe
@@ -3307,7 +3307,7 @@ Suggests: pve-firmware
 Conflicts: linux-image
 Replaces: linux-image
 Provides: linux-image
-Filename: ./pve-kernel-5.10.90-1-pve_5.10.90-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-kernel-5.10.90-1-pve_5.10.90-1_arm64.deb
 Size: 24787336
 MD5sum: 6b3948cf4e4307de982a94eb54809af6
 SHA1: 62b019b8fb90ea180eacfde53a48f202dffa002a
@@ -3329,7 +3329,7 @@ Suggests: pve-firmware
 Conflicts: linux-image
 Replaces: linux-image
 Provides: linux-image
-Filename: ./pve-kernel-5.10.95-1-pve_5.10.95-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-kernel-5.10.95-1-pve_5.10.95-1_arm64.deb
 Size: 24794524
 MD5sum: f79cab4dbfc520faa7678ec75fb3b1c9
 SHA1: 80a35e7c0145fd0950ddf8667562b5777fde86e3
@@ -3348,7 +3348,7 @@ Installed-Size: 5215
 Conflicts: linux-libc-dev
 Replaces: linux-libc-dev
 Provides: linux-libc-dev (= 5.10.110-1)
-Filename: ./pve-kernel-libc-dev_5.10.110-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-kernel-libc-dev_5.10.110-1_arm64.deb
 Size: 1029396
 MD5sum: 6495407cfab9af6146b014e121eed7a8
 SHA1: 0bd033bc305e6d9bd02e1c6c0ec1451e47db54a3
@@ -3366,7 +3366,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 758
 Depends: libc6 (>= 2.28), libgcc-s1 (>= 4.2), libsystemd0
-Filename: ./pve-lxc-syscalld_1.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-lxc-syscalld_1.0.0-1_arm64.deb
 Size: 245608
 MD5sum: efd7170bdc0446d055c016b43a1770be
 SHA1: 752651c8512088485cb8c36fb395e94f17ca519a
@@ -3389,7 +3389,7 @@ Conflicts: vlan, vzdump
 Breaks: libpve-network-perl (<< 0.5-1)
 Replaces: vlan, vzdump
 Provides: vlan, vzdump
-Filename: ./pve-manager_7.2-7_arm64.deb
+Filename: dev/main/binary-arm64/pve-manager_7.2-7_arm64.deb
 Size: 2075904
 MD5sum: 6090850d04911eaa2b67086166b00ad4
 SHA1: cc4ce3fe785f28f869e692966b420dccc66a9c7f
@@ -3410,7 +3410,7 @@ Suggests: libgl1
 Conflicts: kvm, pve-kvm, pve-qemu-kvm-2.6.18, qemu, qemu-kvm, qemu-system-arm, qemu-system-common, qemu-system-x86, qemu-utils
 Replaces: pve-kvm, pve-qemu-kvm-2.6.18, qemu-system-arm, qemu-system-x86, qemu-utils
 Provides: qemu-system-arm, qemu-system-x86, qemu-utils
-Filename: ./pve-qemu-kvm_7.0.0-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-qemu-kvm_7.0.0-1_arm64.deb
 Size: 24208976
 MD5sum: ffc15f82ee505a281713379db9f564c8
 SHA1: f6611e57897f5196662390a152e30f4961883ae5
@@ -3429,7 +3429,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 3001
 Depends: libacl1 (>= 2.2.23), libc6 (>= 2.29), libcrypt1 (>= 1:4.1.0), libgcc-s1 (>= 4.2)
-Filename: ./pve-xtermjs_4.16.0-1_arm64.deb
+Filename: dev/main/binary-arm64/pve-xtermjs_4.16.0-1_arm64.deb
 Size: 744016
 MD5sum: db8d61c5ed51adf48c3ee03f0ecf13c9
 SHA1: 58f5a2cf93edb12addc252ffb808b507abf0f6fe
@@ -3449,7 +3449,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 14
 Depends: python3-cephfs (= 16.2.7), python3-rados (= 16.2.7), python3-rbd (= 16.2.7), python3-rgw (= 16.2.7)
-Filename: ./python3-ceph_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/python3-ceph_16.2.7_arm64.deb
 Size: 9028
 MD5sum: b9727e9f7e3fdd88b8551f20b94e54d8
 SHA1: cbebd51267b987d6e72c0c420ce117cc93cb8651
@@ -3471,7 +3471,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 526
 Depends: libcephfs2 (= 16.2.7), python3-rados (= 16.2.7), python3-ceph-argparse (= 16.2.7), python3 (<< 3.10), python3 (>= 3.9~), python3:any, libc6 (>= 2.17)
-Filename: ./python3-cephfs_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/python3-cephfs_16.2.7_arm64.deb
 Size: 151280
 MD5sum: bfcc170d0719dc0f49717a0d715e1590
 SHA1: 7370f0cf1e16215c3c5f1f8432cef79de21c519b
@@ -3494,7 +3494,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 1034
 Depends: librados2, python3 (<< 3.10), python3 (>= 3.9~), libc6 (>= 2.17)
-Filename: ./python3-rados_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/python3-rados_16.2.7_arm64.deb
 Size: 280012
 MD5sum: 432de7a352f072094491a4e2143311fb
 SHA1: 6a9ccac37b34c95181553858f264561e0cc8f2c0
@@ -3517,7 +3517,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 1043
 Depends: librbd1 (>= 16.2.7), python3 (<< 3.10), python3 (>= 3.9~), libc6 (>= 2.17)
-Filename: ./python3-rbd_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/python3-rbd_16.2.7_arm64.deb
 Size: 261556
 MD5sum: 3bae18eb11ccd538dff13bbaf0e52ca0
 SHA1: b59a489ddc0ccc93f2187bad788b9a4b7bf0610e
@@ -3540,7 +3540,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 262
 Depends: librgw2 (>= 16.2.7), python3-rados (= 16.2.7), python3 (<< 3.10), python3 (>= 3.9~), libc6 (>= 2.17)
-Filename: ./python3-rgw_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/python3-rgw_16.2.7_arm64.deb
 Size: 88012
 MD5sum: 565d4f4a5f28e324fef44a1cba42f789
 SHA1: bdfd2b7ffe3f06effdc40f55a63ee8db3f8f961e
@@ -3564,7 +3564,7 @@ Installed-Size: 796
 Depends: dbus, genisoimage, libio-multiplex-perl, libjson-perl, libjson-xs-perl, libnet-ssleay-perl, libpve-access-control (>= 5.0-7), libpve-cluster-perl, libpve-common-perl (>= 7.1-3), libpve-guest-common-perl (>= 4.1-1), libpve-storage-perl (>= 6.3-8), libterm-readline-gnu-perl, libuuid-perl, libxml-libxml-perl, perl (>= 5.10.0-19), pve-cluster, pve-edk2-firmware (>= 3.20210831-1), pve-firewall, pve-ha-manager (>= 3.0-9), pve-qemu-kvm (>= 3.0.1-62), socat, perl:any, libc6 (>= 2.17), libglib2.0-0 (>= 2.28.0), libjson-c5 (>= 0.15)
 Recommends: proxmox-backup-file-restore (>= 2.1.9-2)
 Breaks: pve-ha-manager (<= 3.0-4), pve-manager (<= 6.0-13)
-Filename: ./qemu-server_7.2-3_arm64.deb
+Filename: dev/main/binary-arm64/qemu-server_7.2-3_arm64.deb
 Size: 188256
 MD5sum: 3d1685c02420a5b906aac11e05b742c3
 SHA1: 3e1f1fa4b742003280066f0a6e8a7a72e9e9eb5e
@@ -3582,7 +3582,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 20
 Depends: librados-dev (= 16.2.7)
-Filename: ./rados-objclass-dev_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/rados-objclass-dev_16.2.7_arm64.deb
 Size: 10156
 MD5sum: 5151bf2eb73a85118d57f89ff41226d7
 SHA1: 6c1aeebcb430c59a753ba9dea50d76c5d71207a6
@@ -3603,7 +3603,7 @@ Installed-Size: 36720
 Depends: ceph-common (= 16.2.7), librgw2 (= 16.2.7), mime-support, libc6 (>= 2.30), libcurl4 (>= 7.28.0), libexpat1 (>= 2.0.1), libgcc-s1 (>= 4.5), libgoogle-perftools4, libicu67 (>= 67.1-1~), libldap-2.4-2 (>= 2.4.7), liblua5.3-0, librabbitmq4 (>= 0.10.0), librados2, librdkafka1 (>= 0.9.2), libssl1.1 (>= 1.1.0), libstdc++6 (>= 9)
 Recommends: ntp | time-daemon
 Suggests: gawk
-Filename: ./radosgw_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/radosgw_16.2.7_arm64.deb
 Size: 9430444
 MD5sum: f84c54ca2e933d35759d6ade3706714e
 SHA1: cf66e0b7046ad38ee928fadef0f02785086df9a3
@@ -3627,7 +3627,7 @@ Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 244
 Depends: libc6 (>= 2.28), libfuse3-3 (>= 3.2.3), libgcc-s1 (>= 3.0), librados2, librbd1, libstdc++6 (>= 9)
 Recommends: fuse
-Filename: ./rbd-fuse_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/rbd-fuse_16.2.7_arm64.deb
 Size: 78172
 MD5sum: 750aab25ec74d122a079c60e751680a9
 SHA1: 4d9033ef71fb91f5b55db8f12b659b9de513c371
@@ -3650,7 +3650,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 14521
 Depends: ceph-common (= 16.2.7), librados2 (= 16.2.7), libc6 (>= 2.30), libcryptsetup12 (>= 2:2.0), libgcc-s1 (>= 4.5), libgoogle-perftools4, libssl1.1 (>= 1.1.0), libstdc++6 (>= 9)
-Filename: ./rbd-mirror_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/rbd-mirror_16.2.7_arm64.deb
 Size: 2969288
 MD5sum: 6443f638948d03ca696d943ce8877f10
 SHA1: 06b268d3724cf4fc26ec6a3929c6bac56211273a
@@ -3672,7 +3672,7 @@ Architecture: arm64
 Maintainer: Ceph Maintainers <ceph-maintainers@lists.ceph.com>
 Installed-Size: 474
 Depends: libc6 (>= 2.28), libgcc-s1 (>= 3.0), libnl-3-200 (>= 3.2.7), libnl-genl-3-200 (>= 3.2.21), librados2, librbd1, libstdc++6 (>= 9)
-Filename: ./rbd-nbd_16.2.7_arm64.deb
+Filename: dev/main/binary-arm64/rbd-nbd_16.2.7_arm64.deb
 Size: 146796
 MD5sum: 4f8f239ddc93028421ba2b0b48e86272
 SHA1: a65f91e2449c976df3c84d6899e6bacfd6ff1297
@@ -3696,7 +3696,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 341
 Depends: libspice-server1 (>= 0.12.2), pve-qemu-kvm, libc6 (>= 2.17), libglib2.0-0 (>= 2.31.8)
-Filename: ./spiceterm_3.2-2_arm64.deb
+Filename: dev/main/binary-arm64/spiceterm_3.2-2_arm64.deb
 Size: 51912
 MD5sum: 77e917bca5ebc85e6fb71759503ab11c
 SHA1: 24ea30d9244491883f32eff131df2895dfcfb523
@@ -3713,7 +3713,7 @@ Architecture: arm64
 Maintainer: Proxmox Support Team <support@proxmox.com>
 Installed-Size: 2454
 Depends: libc6 (>= 2.17), libgnutls30 (>= 3.7.0), libjpeg62-turbo (>= 1.3.1), libpng16-16 (>= 1.6.2-1), zlib1g (>= 1:1.2.1)
-Filename: ./vncterm_1.7-1_arm64.deb
+Filename: dev/main/binary-arm64/vncterm_1.7-1_arm64.deb
 Size: 618164
 MD5sum: 277df35f0ca3b83d1b9a325b42a30db8
 SHA1: 7b461c56a94a79bf8219270bb99e50e2f5912bad

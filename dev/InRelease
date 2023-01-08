@@ -4,11 +4,12 @@ Hash: SHA512
 Origin: pimox
 Label: Pimox: Raspberry Pi Promox
 Codename: dev/
-Architectures: amd64 arm64 arm7
-Date: Sun, 08 Jan 2023 05:31:26 +0000
+Date: Sun, 08 Jan 2023 05:49:03 +0000
 MD5Sum:
+ d41d8cd98f00b204e9800998ecf8427e 0 Packages
+ 24a4c0d5abb22d27eeadfb68ccd4e595 34616 Packages.gz
  a3d8f1c8a1c513d25930796ce439b3c3 1639 pgp-key.public
- 5969f6a069274c7148310a284173f1e4 528 generate-release.sh
+ 86e922d3e24f76636ef2fc202fd4d073 496 generate-release.sh
  a3114baff0216604a9229b6ed0235ba1 15192 binary-arm64/lxc-pve-dev_4.0.9-4_arm64.deb
  a11ff3234935f8f40bf2af9f11f3d09f 183568 binary-arm64/qemu-server_7.1-4rpve1_arm64.deb
  1936be6aa2a1e3ca71d7ad6f818cb172 1160 binary-arm64/librust-proxmox-http+http-dev_0.5.1-1_arm64.deb
@@ -603,8 +604,10 @@ MD5Sum:
  d068fd8588bcbe97247d0eb5d45d2708 22488 binary-all/ceph-grafana-dashboards_16.2.7_all.deb
  0da431dfdc17ca6ed5eac9004ded62b2 10917980 binary-all/pve-edk2-firmware_3.20210831-1_all.deb
 SHA1:
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 Packages
+ 8f8f66a8380d76ac93eb1b4a75e79c87729b07ac 34616 Packages.gz
  80604ee9e466462b8c3fcd6d8b6973c1017155b5 1639 pgp-key.public
- 48954d16ce21aa6802bf5b6d735be1528dc8dd61 528 generate-release.sh
+ 7c4a8df07e48e478201bab3e6e2b1211d6316163 496 generate-release.sh
  298117d90c91e8902bbbe9e9740765bf0a969afa 15192 binary-arm64/lxc-pve-dev_4.0.9-4_arm64.deb
  0e27ed612256b944a61219882d25af251f8bf227 183568 binary-arm64/qemu-server_7.1-4rpve1_arm64.deb
  384167f0001e6229a89e6c78b7cb4f62dd432985 1160 binary-arm64/librust-proxmox-http+http-dev_0.5.1-1_arm64.deb
@@ -1199,8 +1202,10 @@ SHA1:
  09dd5258abfb1fb93f10fe62cbadf885bad7f54d 22488 binary-all/ceph-grafana-dashboards_16.2.7_all.deb
  9fe84d8dd06a1e44192ce5c785bfb9c1c3d1ea47 10917980 binary-all/pve-edk2-firmware_3.20210831-1_all.deb
 SHA256:
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 Packages
+ 8dc4613182883663293a8a6f5686eef52d1d2fcb02a5fbfe53d19095b994e9c2 34616 Packages.gz
  849d983a46dfe624ec265f0d48fce743e048d87efe22adf7d16c798087ba165e 1639 pgp-key.public
- ea16a84e45cf48b74c2160f0514beb28fdc714f2ad14016858b8a03a7acfed7a 528 generate-release.sh
+ 606ceead0a87e7cac8ca1fcb0b36f7e6dcc0328b9e28cb8d52bb95f631016a7d 496 generate-release.sh
  191ed783563a86dd4c2f15ac1fdfdaf328cadbc6dde8f73487249a090697b623 15192 binary-arm64/lxc-pve-dev_4.0.9-4_arm64.deb
  53ef0570eb8196e418e53ec934d318b77d2559dae1777747939e9e63538708e8 183568 binary-arm64/qemu-server_7.1-4rpve1_arm64.deb
  b417d1fa1f62be84458bd1acb7d947a4ec643cf4f2c4c44709cde938675dd8fe 1160 binary-arm64/librust-proxmox-http+http-dev_0.5.1-1_arm64.deb
@@ -1796,18 +1801,18 @@ SHA256:
  1a63a005bf0cff9c71752887852d4eb887fd5ebeb19b71def66cbd2215708f02 10917980 binary-all/pve-edk2-firmware_3.20210831-1_all.deb
 -----BEGIN PGP SIGNATURE-----
 
-iQJIBAEBCgAyFiEETj+JBkfSrJhq3A12HFQgBHNfsUMFAmO6VToUHGV4YW1wbGVA
-ZXhhbXBsZS5jb20ACgkQHFQgBHNfsUOu3hAApFEoLRhuYaY+9ewQACLOSijOXsQS
-v08H8UKVSCcfEZniQlRfGmu9NHl56EFG47oJ9g4gjopyPfF+83uSC0v1iY3nAwZe
-EZvgDCIfDAgUHPyOHDaO40I/vbN37/bejIt2L2LkFk6IHro7N/E0HzYpJOH/X3x/
-pMx+eMMJOxUIr4ks0Bwpn3qMZWFPYdXOiMgd+RlK5o88zg3x8BA9CgBoYJarVdy3
-0nC7FzsnSYq3vBgXJUFN8oykVwlhptWIni9AqlhEPdq+CrhODLZYNazNrkYoocOX
-IvPoXkq8/GTaPuKoxYzeAw0GjWPzQl+ravkdhSO+R9EHb9mOFBoK7AJjznt2an0t
-kKOjmHOcidYYJEdz19It6gZKTGuRODFn403rsHaaOR+VDvZzD7pYFNXMSy9HO95S
-WwCxH+gWclqcNyMimmM3/P2P+5JffOB/ipgG4Vtih/GRS4aZcwyiGe/sh++Q+f//
-0Dxq2j/GzvldmlGCBgeraNWkpC1XuG/EtAI3RzmL+riRkGFM8kDiQgoyZnYovEhU
-NA8Cb5gBMctkmHkbImSQr+Ys1yIEQ7MZWocwGGN5jzxlnIvNTWJPdrYsTjR2SpEo
-z3MY8RPJQCdgu0aM3SdKz868rhDrt6O5EK9gioYeVtlGJBwky22DqEFKkxG8MpHG
-aJUWehnLMxUKhCk=
-=zH+D
+iQJIBAEBCgAyFiEETj+JBkfSrJhq3A12HFQgBHNfsUMFAmO6WVsUHGV4YW1wbGVA
+ZXhhbXBsZS5jb20ACgkQHFQgBHNfsUNSAw//eJmyXLGV+stCpH3P5EMMwKv+uluj
+7O4MjI8FqGYUkHX4c4rWnU7WEDtHV51mBo3rtSwljfO5hJLqw3WqNBVrpf+QjniZ
+iliUQUhMDIrWxEh2+D1fgKtRsDkHbW1hO2fOnBaT8dYGxEsYcSNDhfccVtbDLKLD
+73MjeYY/YIaYOZH9noIiKE79zH9DMIfiek2CLpi8EM3mzn9W1TNnJhxieNIZdHsM
+5zdmzxb037IjRo+03ZF7b2nBG2cVnZyDiw1/5W46UfedN53jrWwQZZ8jTX2g8YIl
+vmvV02TrWIE9yxp6fHHx41mDLEdSE8wjmWdRIVpVCjVoyvck/tYEZU0F1QBM6b7F
+PXrktEplY+dRwCjxgE73nlqjz92qH7WUn4N2DhZKSLZi1euqSNExEYazdtUJuuT8
+CuqWfyiKjcdDZNyH6MLkqYd9xkDMqK2xuBzI9+1HEnpsxf9l4O2uLj53OyOErHEf
+xHMv/DOL2Zwjy6hPqSlXVTSVe8NFm45s5aFbSTmu2kZHgfQgzNZMxEfoG9rkBOol
+/ZfwERLNZkLi6u7q9DQpc9roWidcfDzS7GnjGXWNGSL1J+wBtzFdtKZEdw+NfuSg
+sZeOAIfVYNxvrTvR39ANMUx2Z+wJdUmemjOZIwOL162TA+qJ0VN4rJ65hg4f9Tzj
+hBFMh+R4ZrJGWOw=
+=3dFr
 -----END PGP SIGNATURE-----
