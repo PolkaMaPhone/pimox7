@@ -1,14 +1,12 @@
-Origin: Example Repository
-Label: Example
-Suite: stable
-Codename: stable
-Version: 1.0
+Origin: pimox
+Label: Pimox: Raspberry Pi Promox
+Codename: dev/
 Architectures: amd64 arm64 arm7
 Components: main
-Description: An example software repository
-Date: Sun, 08 Jan 2023 04:50:20 +0000
+Date: Sun, 08 Jan 2023 05:26:20 +0000
 MD5Sum:
- 4e17fb857a49115e75041ded2c0d2998 612 generate-release.sh
+ a3d8f1c8a1c513d25930796ce439b3c3 1639 pgp-key.public
+ 2a252cdaceb6c96d9e00841853bad4d7 545 generate-release.sh
  a3114baff0216604a9229b6ed0235ba1 15192 binary-arm64/lxc-pve-dev_4.0.9-4_arm64.deb
  a11ff3234935f8f40bf2af9f11f3d09f 183568 binary-arm64/qemu-server_7.1-4rpve1_arm64.deb
  1936be6aa2a1e3ca71d7ad6f818cb172 1160 binary-arm64/librust-proxmox-http+http-dev_0.5.1-1_arm64.deb
@@ -449,6 +447,8 @@ MD5Sum:
  b69760e15bc3b6d85a59cea29e6d14c1 12124 binary-arm64/libcmap4_3.1.2-pve2_arm64.deb
  6528720e605494108307eafd21610202 23680 binary-arm64/librust-proxmox-schema-dev_1.3.3-1_arm64.deb
  9067872282d42b997192415cb33d4747 24782464 binary-arm64/pve-kernel-5.10.83-1-pve_5.10.83-3_arm64.deb
+ e30d38486a0cb84e166b7335a02b216e 175 example-pgp-key.batch
+ e9a9326896a17ce7e062d321f702858b 3392 pgp-key.private
  dc13b0834c365771ffca4147e43ed03c 24748 binary-all/libpve-cluster-perl_7.2-1_all.deb
  b650f5e4d58d5ffdbae4edca307d61ab 27188 binary-all/ceph-mgr-rook_16.2.5-pve1_all.deb
  f47f2c9a65bbeda5648a033d37859f95 9704 binary-all/libproxmox-acme-perl_1.3.0_all.deb
@@ -601,7 +601,8 @@ MD5Sum:
  d068fd8588bcbe97247d0eb5d45d2708 22488 binary-all/ceph-grafana-dashboards_16.2.7_all.deb
  0da431dfdc17ca6ed5eac9004ded62b2 10917980 binary-all/pve-edk2-firmware_3.20210831-1_all.deb
 SHA1:
- 9f6dd6403862064e92548774295c4fbe16d949fe 612 generate-release.sh
+ 80604ee9e466462b8c3fcd6d8b6973c1017155b5 1639 pgp-key.public
+ 815e784c8c62e0e8b0b49e955ca55f5692543a3d 545 generate-release.sh
  298117d90c91e8902bbbe9e9740765bf0a969afa 15192 binary-arm64/lxc-pve-dev_4.0.9-4_arm64.deb
  0e27ed612256b944a61219882d25af251f8bf227 183568 binary-arm64/qemu-server_7.1-4rpve1_arm64.deb
  384167f0001e6229a89e6c78b7cb4f62dd432985 1160 binary-arm64/librust-proxmox-http+http-dev_0.5.1-1_arm64.deb
@@ -1042,6 +1043,8 @@ SHA1:
  86525c7e660dcd2faa308467e8fbe43a4c479c25 12124 binary-arm64/libcmap4_3.1.2-pve2_arm64.deb
  9eb57b55c1c6519da94c551e719c11e13ab79219 23680 binary-arm64/librust-proxmox-schema-dev_1.3.3-1_arm64.deb
  17b836f01f2fe49b0029359c0591ca892782def2 24782464 binary-arm64/pve-kernel-5.10.83-1-pve_5.10.83-3_arm64.deb
+ e00a57fd688d2ceb40eb9abd1aa726a000b1c866 175 example-pgp-key.batch
+ ad2beee63fcfe0aac2d21bd7100b68f2d1b0cc78 3392 pgp-key.private
  c5e8da2998cc381c3b49fc3f64d4a80c505a6e93 24748 binary-all/libpve-cluster-perl_7.2-1_all.deb
  3cc5ae04eddbc895dded07bdb398c1063dfa7f96 27188 binary-all/ceph-mgr-rook_16.2.5-pve1_all.deb
  ea8c1e5eae50a8de7a428efbcc3461b457ed5b25 9704 binary-all/libproxmox-acme-perl_1.3.0_all.deb
@@ -1194,7 +1197,8 @@ SHA1:
  09dd5258abfb1fb93f10fe62cbadf885bad7f54d 22488 binary-all/ceph-grafana-dashboards_16.2.7_all.deb
  9fe84d8dd06a1e44192ce5c785bfb9c1c3d1ea47 10917980 binary-all/pve-edk2-firmware_3.20210831-1_all.deb
 SHA256:
- 9316952912e2a6e17e25de5a13851cfbc0029859f6f664995794bb680f7a44b3 612 generate-release.sh
+ 849d983a46dfe624ec265f0d48fce743e048d87efe22adf7d16c798087ba165e 1639 pgp-key.public
+ 90b544a9a2a3d2c65757bffa6afab69681f35bd6e32aa6acd7b10d310f0cf3a7 545 generate-release.sh
  191ed783563a86dd4c2f15ac1fdfdaf328cadbc6dde8f73487249a090697b623 15192 binary-arm64/lxc-pve-dev_4.0.9-4_arm64.deb
  53ef0570eb8196e418e53ec934d318b77d2559dae1777747939e9e63538708e8 183568 binary-arm64/qemu-server_7.1-4rpve1_arm64.deb
  b417d1fa1f62be84458bd1acb7d947a4ec643cf4f2c4c44709cde938675dd8fe 1160 binary-arm64/librust-proxmox-http+http-dev_0.5.1-1_arm64.deb
@@ -1635,6 +1639,8 @@ SHA256:
  c52942d89005579514a709d769968ec095d5249447f7348d5a0b3d7b0642b35d 12124 binary-arm64/libcmap4_3.1.2-pve2_arm64.deb
  2fb2767dd2e6d927ba6e5a4060215cda39a072ee8099de39fb3a95c1c1f3fe53 23680 binary-arm64/librust-proxmox-schema-dev_1.3.3-1_arm64.deb
  8a09a86d6dfccd31da9735060a7a6c05a14707d98fe2e37636c4281a66f37d54 24782464 binary-arm64/pve-kernel-5.10.83-1-pve_5.10.83-3_arm64.deb
+ 37ec8b1661dc4f33246c2aed4c494a8a2639124a18bef911c9cacb0794bd24e8 175 example-pgp-key.batch
+ 086ece10d98e236e71d60c2266fca067b10ea8900972f9b750db6109eef11ece 3392 pgp-key.private
  48043cfe3188de06798de7d9f709faf1895427565e72b072343ebf1c07899532 24748 binary-all/libpve-cluster-perl_7.2-1_all.deb
  d9660326545e15301d96aefda561f18b9e91c744a231facc9b548bb23a651711 27188 binary-all/ceph-mgr-rook_16.2.5-pve1_all.deb
  1436e14127a50fb87c2d6eed2723ec278266ac7d3f46445266837bcb3d4dfb08 9704 binary-all/libproxmox-acme-perl_1.3.0_all.deb
