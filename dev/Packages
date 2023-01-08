@@ -10284,6 +10284,24 @@ Description: "pmxcfs" distributed cluster filesystem for Proxmox Virtual Environ
  This FUSE filesystem is using corosync and sqlite3 to provide a cluster-wide,
  consistent view of config and other files.
 
+Package: pve-cluster
+Version: 7.2-2
+Architecture: arm64
+Maintainer: Proxmox Support Team <support@proxmox.com>
+Installed-Size: 399
+Depends: corosync (>= 2.3.4-1), fuse, libfuse2 (>= 2.9.2-4), libglib2.0-0 (>= 2.42.1-1), libpve-common-perl (>= 6.0-7~), libqb100 (>= 2.0.1-1), libsqlite3-0 (>= 3.20.0), sqlite3, systemd, perl, perlapi-5.36.0, libc6 (>= 2.17), libcmap4 (>= 1.99.9), libcpg4 (>= 2.3.4-1), libquorum5 (>= 2.3.4-1), librrd8 (>= 1.4~rc2)
+Breaks: libpve-access-control (<= 6.0-3), libpve-guest-common-perl (<= 3.0-2), libpve-storage-perl (<= 6.0-9), pve-container (<= 3.0-10), pve-ha-manager (<= 3.0-3), pve-manager (<= 6.0-12), qemu-server (<= 6.0-13)
+Filename: dev/main/binary-arm64/pve-cluster_7.2-1_arm64.deb
+Size: 108272
+MD5sum: 5e21353fe9b19eb21d03a54226f8190a
+SHA1: 071fdc2854118eb34f94cf2b3716abd4e4bea5cb
+SHA256: 2a572d6229565b0ef11f015d5ef9fc62528c90d27f840ade992730c55306dbe0
+Section: admin
+Priority: optional
+Description: "pmxcfs" distributed cluster filesystem for Proxmox Virtual Environment.
+ This FUSE filesystem is using corosync and sqlite3 to provide a cluster-wide,
+ consistent view of config and other files.
+
 Package: pve-container
 Version: 4.0-11
 Architecture: all
